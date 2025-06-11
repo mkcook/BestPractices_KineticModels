@@ -1,0 +1,1675 @@
+# Initialize concentrations 
+species cAcon;
+cAcon= v6*0.001*dilution_factor; 
+species _510CH2THF;
+_510CH2THF= v14*0.001*dilution_factor; 
+species _3AMP;
+_3AMP= v37*0.001*dilution_factor; 
+species H2O;
+H2O= v69*10.0*dilution_factor; 
+species SDLactoylglutathione;
+SDLactoylglutathione= v72*0.001*dilution_factor; 
+species Acetylphosphate;
+Acetylphosphate= v73*1.1*dilution_factor; 
+species Propanoylphosphate;
+Propanoylphosphate= v147*0.001*dilution_factor; 
+species Itaconate;
+Itaconate= v160*0.001*dilution_factor; 
+species QH2;
+QH2= v170*0.001*dilution_factor; 
+species NH3;
+NH3= v180*0.001*dilution_factor; 
+species Ethanol;
+Ethanol= v207*0.001*dilution_factor; 
+species Dihydrolipoylprotein;
+Dihydrolipoylprotein= v224*0.001*dilution_factor; 
+species aKG;
+aKG= v237*0.44*dilution_factor; 
+species AMP;
+AMP= v238*0.001*dilution_factor; 
+species Isocitrate;
+Isocitrate= v260*0.001*dilution_factor; 
+species THF;
+THF= v263*0.001*dilution_factor; 
+species NADP;
+NADP= v265*0.0021*dilution_factor; 
+species Acetate;
+Acetate= v277*0.001*dilution_factor; 
+species Ubiquinone;
+Ubiquinone= v279*0.001*dilution_factor; 
+species Glycine;
+Glycine= v295*0.001*dilution_factor; 
+species THMPT;
+THMPT= v298*0.001*dilution_factor; 
+species _2Oxoadipate;
+_2Oxoadipate= v310*0.001*dilution_factor; 
+species _2A3OxoBAc;
+_2A3OxoBAc= v312*0.001*dilution_factor; 
+species SucCoA;
+SucCoA= v325*0.23*dilution_factor; 
+species NADPH;
+NADPH= v326*0.12*dilution_factor; 
+species Propanoate;
+Propanoate= v327*0.001*dilution_factor; 
+species NAD;
+NAD= v338*0.001*dilution_factor; 
+species CoA;
+CoA= v346*1.4*dilution_factor; 
+species Oxa;
+Oxa= v359*0.0011*dilution_factor; 
+species S2Aceto2hydroxybutanoate;
+S2Aceto2hydroxybutanoate= v373*0.001*dilution_factor; 
+species Pyr;
+Pyr= v386*0.0011*dilution_factor; 
+species _5GlutCys;
+_5GlutCys= v391*0.001*dilution_factor; 
+species Citrate;
+Citrate= v392*0.001*dilution_factor; 
+species MaloCoA;
+MaloCoA= v403*0.001*dilution_factor; 
+species Serine;
+Serine= v409*0.011*dilution_factor; 
+species PEP;
+PEP= v431*0.18*dilution_factor; 
+species Formate;
+Formate= v435*0.001*dilution_factor; 
+species AcCoA;
+AcCoA= v440*0.61*dilution_factor; 
+species ItaconylCoA;
+ItaconylCoA= v466*0.001*dilution_factor; 
+species CO2;
+CO2= v470*0.001*dilution_factor; 
+species PO4;
+PO4= v483*0.001*dilution_factor; 
+species S2Acetolactate;
+S2Acetolactate= v494*0.001*dilution_factor; 
+species GcvHSaminomethylN6dihydrolipoylLlysine;
+GcvHSaminomethylN6dihydrolipoylLlysine= v496*0.001*dilution_factor; 
+species _510MTHMPT;
+_510MTHMPT= v501*0.001*dilution_factor; 
+species Succinate;
+Succinate= v509*7.1692*dilution_factor; 
+species GSH;
+GSH= v534*0.001*dilution_factor; 
+species Mal;
+Mal= v539*1.7*dilution_factor; 
+species ADP;
+ADP= v555*0.001*dilution_factor; 
+species PropaCoA;
+PropaCoA= v563*0.001*dilution_factor; 
+species GlutarylCoA;
+GlutarylCoA= v577*0.001*dilution_factor; 
+species NADH;
+NADH= v581*0.083*dilution_factor; 
+species H;
+H= v593*0.0001*dilution_factor; 
+species LipoylP;
+LipoylP= v611*0.001*dilution_factor; 
+species PPi;
+PPi= v653*0.0011*dilution_factor; 
+species Glyox;
+Glyox= v658*0.0011*dilution_factor; 
+species DLactate;
+DLactate= v673*3.25*dilution_factor; 
+species _2Oxobutanoate;
+_2Oxobutanoate= v674*0.001*dilution_factor; 
+species Acetaldehyde;
+Acetaldehyde= v683*0.0011*dilution_factor; 
+species ATP;
+ATP= v712*0.011*dilution_factor; 
+species Acetyladenylate;
+Acetyladenylate= v734*0.001*dilution_factor; 
+species Fum;
+Fum= v757*0.001*dilution_factor; 
+species CitrateHCT;
+CitrateHCT= v763*1e-07*dilution_factor; 
+species Oxalosuccinicacid;
+Oxalosuccinicacid= v764*0.001*dilution_factor; 
+species eEC6215;
+eEC6215= p_eEC6215*rel0*0.019907186*dilution_factor; 
+species eEC4213;
+eEC4213= p_eEC4213*rel0*0.017715569*dilution_factor; 
+species eEC1242;
+eEC1242= p_eEC1242*rel0*0.01698503*dilution_factor; 
+species eEC11137;
+eEC11137= p_eEC11137*rel0*0.013770659*dilution_factor; 
+species eEC1814;
+eEC1814= p_eEC1814*rel0*0.011871257*dilution_factor; 
+species eEC1241;
+eEC1241= p_eEC1241*rel0*0.011323353*dilution_factor; 
+species eEC23316;
+eEC23316= p_eEC23316*rel0*0.010592814*dilution_factor; 
+species eEC27140;
+eEC27140= p_eEC27140*rel0*0.01041018*dilution_factor; 
+species eEC11142;
+eEC11142= p_eEC11142*rel0*0.010227545*dilution_factor; 
+species eEC23112;
+eEC23112= p_eEC23112*rel0*0.009497006*dilution_factor; 
+species eEC23161;
+eEC23161= p_eEC23161*rel0*0.007853293*dilution_factor; 
+species eEC41149;
+eEC41149= p_eEC41149*rel0*0.007488024*dilution_factor; 
+species eEC2792;
+eEC2792= p_eEC2792*rel0*0.00657485*dilution_factor; 
+species eEC4212;
+eEC4212= p_eEC4212*rel0*0.006026946*dilution_factor; 
+species eEC2121;
+eEC2121= p_eEC2121*rel0*0.005661677*dilution_factor; 
+species eEC11140;
+eEC11140= p_eEC11140*rel0*0.005661677*dilution_factor; 
+species eEC2318;
+eEC2318= p_eEC2318*rel0*0.004931138*dilution_factor; 
+species eEC1442;
+eEC1442= p_eEC1442*rel0*0.004748503*dilution_factor; 
+species eEC6211;
+eEC6211= p_eEC6211*rel0*0.003287425*dilution_factor; 
+species eEC23129;
+eEC23129= p_eEC23129*rel0*0.003287425*dilution_factor; 
+species eEC6412;
+eEC6412= p_eEC6412*rel0*0.003287425*dilution_factor; 
+species eEC41131;
+eEC41131= p_eEC41131*rel0*0.00310479*dilution_factor; 
+species eEC2721;
+eEC2721= p_eEC2721*rel0*0.002739521*dilution_factor; 
+species eEC4131;
+eEC4131= p_eEC4131*rel0*0.002008982*dilution_factor; 
+species eEC1351;
+eEC1351= p_eEC1351*rel0*0.001826347*dilution_factor; 
+species eEC2216;
+eEC2216= p_eEC2216*rel0*0.001826347*dilution_factor; 
+species eEC6323;
+eEC6323= p_eEC6323*rel0*0.001826347*dilution_factor; 
+species eEC11138;
+eEC11138= p_eEC11138*rel0*0.001643713*dilution_factor; 
+species eEC43117;
+eEC43117= p_eEC43117*rel0*0.000913174*dilution_factor; 
+species eEC3126;
+eEC3126= p_eEC3126*rel0*0.000547904*dilution_factor; 
+species eEC1111;
+eEC1111= p_eEC1111*rel0*0.000365269*dilution_factor; 
+species eEC11128;
+eEC11128= p_eEC11128*rel0*0.000365269*dilution_factor; 
+species eEC1112;
+eEC1112= p_eEC1112*rel0*0.000182635*dilution_factor; 
+species hEC11137;
+hEC11137= p_hEC11137*rel1*0.0122*dilution_factor; 
+species hEC43117;
+hEC43117= p_hEC43117*rel2*0.0122*dilution_factor; 
+species hEC6411;
+hEC6411= p_hEC6411*rel3*0.0122*dilution_factor; 
+species hEC11719;
+hEC11719= p_hEC11719*rel4*0.0122*dilution_factor; 
+
+# Initialize parameters 
+Kcat_F_R56 =1.4999326265; 
+Kcat_R_R56 =776.364246988; 
+
+Keq_R56 =0.0035291418980283843; 
+
+Kcat_V_R56 =1; 
+Km_ADP_eEC2721 =0.151691675; 
+Km_Acetylphosphate_eEC2721 =1.3033333333333335; 
+Km_ATP_eEC2721 =0.122388884; 
+Km_Acetate_eEC2721 =46.92825317; 
+
+Kcat_F_R57 =1.0643798169999998; 
+Kcat_R_R57 =2.623737873; 
+
+Keq_R57 =1.6234889088636884e-06; 
+
+Kcat_V_R57 =1; 
+Km_Propanoylphosphate_eEC2721 =0.5455302; 
+Km_Propanoate_eEC2721 =27.57633972; 
+
+Kcat_F_R58 =4.182973017; 
+Kcat_R_R58 =3.076708990333333; 
+
+Keq_R58 =27.390597980701735; 
+
+Kcat_V_R58 =1; 
+Km_PPi_eEC6211 =0.13318713; 
+Km_AMP_eEC6211 =0.053331587; 
+Km_AcCoA_eEC6211 =0.055413216; 
+Km_ATP_eEC6211 =0.05487762; 
+Km_CoA_eEC6211 =0.077155121; 
+Km_Acetate_eEC6211 =2.543298721; 
+
+Kcat_F_R59 =5.9861884414999995; 
+Kcat_R_R59 =4.5128109405; 
+
+Keq_R59 =1; 
+
+Kcat_V_R59 =1; 
+Km_Acetyladenylate_eEC6211 =0.045171168; 
+
+Kcat_F_R60 =3.271660328; 
+Kcat_R_R60 =3.085641789; 
+
+Keq_R60 =1; 
+
+Kcat_V_R60 =1; 
+Kcat_F_R61 =4.2899591280000005; 
+Kcat_R_R61 =3.1908125446666666; 
+
+Keq_R61 =1.5879081427165866; 
+
+Kcat_V_R61 =1; 
+Km_PropaCoA_eEC6211 =0.054458927; 
+Km_Propanoate_eEC6211 =1.640108466; 
+
+Kcat_F_R64 =0.26705086833333336; 
+Kcat_R_R64 =0.21057309933333335; 
+
+Keq_R64 =39.32771904303767; 
+
+Kcat_V_R64 =1; 
+Km_ADP_eEC6412 =0.041535225; 
+Km_PO4_eEC6412 =0.312815398; 
+Km_MaloCoA_eEC6412 =0.1; 
+Km_ATP_eEC6412 =0.031438239; 
+Km_AcCoA_eEC6412 =0.023739677; 
+Km_CO2_eEC6412 =0.259498209; 
+
+Kcat_F_R69 =6.538237947; 
+Kcat_R_R69 =5.557925254; 
+
+Keq_R69 =0.06308443380260503; 
+
+Kcat_V_R69 =1; 
+Km_Isocitrate_eEC4213 =0.339520901; 
+Km_Citrate_eEC4213 =1.662616611; 
+
+Kcat_F_R70 =6.538237947; 
+Kcat_R_R70 =34.618153544500004; 
+
+Keq_R70 =0.0327657690064193; 
+
+Kcat_V_R70 =1; 
+Km_H2O_eEC4213 =2.687092781; 
+Km_cAcon_eEC4213 =0.037000000000000005; 
+
+Kcat_F_R71 =5.557925254; 
+Kcat_R_R71 =34.618153544500004; 
+
+Keq_R71 =0.5193954678097826; 
+
+Kcat_V_R71 =1; 
+Kcat_F_R83 =21.99615414; 
+Kcat_R_R83 =20.595970775; 
+
+Keq_R83 =0.0006821622874464104; 
+
+Kcat_V_R83 =1; 
+Km_NADH_eEC1111 =0.040233176; 
+Km_H_eEC1111 =0.569533765; 
+Km_Acetaldehyde_eEC1111 =1.347845793; 
+Km_NAD_eEC1111 =0.100172691; 
+Km_Ethanol_eEC1111 =1.817483544; 
+
+Kcat_F_R90 =5.4128640165; 
+Kcat_R_R90 =29.789110517; 
+
+Keq_R90 =0.00068157221139535; 
+
+Kcat_V_R90 =1; 
+Km_NADPH_eEC1112 =0.071021505; 
+Km_H_eEC1112 =3.693367481; 
+Km_Acetaldehyde_eEC1112 =28.47; 
+Km_NADP_eEC1112 =0.212885574; 
+Km_Ethanol_eEC1112 =5.76950407; 
+
+Kcat_F_R123 =19.78221183941891; 
+Kcat_R_R123 =19.78221183941891; 
+
+Keq_R123 =0.02520442315960882; 
+
+Kcat_V_R123 =1; 
+Km_ADP_eEC2338 =11.421359055528603; 
+Km_PO4_eEC2338 =11.421359055528603; 
+Km_AcCoA_eEC2338 =11.421359055528603; 
+Km_Oxa_eEC2338 =11.421359055528603; 
+Km_ATP_eEC2338 =11.421359055528603; 
+Km_CoA_eEC2338 =11.421359055528603; 
+Km_Citrate_eEC2338 =11.421359055528603; 
+
+Kcat_F_R157 =33.803514055; 
+Kcat_R_R157 =47.3506715233333; 
+
+Keq_R157 =1.6057484977815639e-07; 
+
+Kcat_V_R157 =1; 
+Km_Citrate_eEC23316 =0.206155464; 
+Km_CoA_eEC23316 =0.065331496; 
+Km_AcCoA_eEC23316 =0.052596927; 
+Km_H2O_eEC23316 =0.965167284; 
+Km_Oxa_eEC23316 =0.069584779; 
+Ki_NADH_eEC23316 =0.0366801843047142; 
+Ki_aKG_eEC23316 =0.1462313681840896; 
+Ki_PropaCoA_eEC23316 =0.0563869215548038; 
+Ki_CitrateHCT_eEC23316 =0.206155464; 
+Ki__3AMP_eEC23316 =0.0404240079224109; 
+
+Kcat_F_R169 =117.9162304; 
+Kcat_R_R169 =278.5808072; 
+
+Keq_R169 =1; 
+
+Kcat_V_R169 =1; 
+Km_NADH_eEC1814 =0.021393653; 
+Km_H_eEC1814 =0.225048855; 
+Km_LipoylP_eEC1814 =0.11206942166666667; 
+Km_NAD_eEC1814 =0.089765757; 
+Km_Dihydrolipoylprotein_eEC1814 =0.11206942166666667; 
+
+Kcat_F_R171 =231.67734093333334; 
+Kcat_R_R171 =276.38021813333336; 
+
+Keq_R171 =998855.9306379288; 
+
+Kcat_V_R171 =1; 
+Km_CO2_eEC1814 =0.555787563; 
+Km_AcCoA_eEC1814 =0.026133817; 
+Km_CoA_eEC1814 =0.030270519; 
+Km_Pyr_eEC1814 =0.3933333333333333; 
+
+Kcat_F_R172 =97.07549719000001; 
+Kcat_R_R172 =292.699911325; 
+
+Keq_R172 =0.00014118454869627972; 
+
+Kcat_V_R172 =1; 
+Km_NH3_eEC1814 =0.673851371; 
+Km__510CH2THF_eEC1814 =0.019876115; 
+Km_Glycine_eEC1814 =0.678076088; 
+Km_THF_eEC1814 =0.028163046; 
+
+Kcat_F_R173 =236.21170506666667; 
+Kcat_R_R173 =267.36655713333334; 
+
+Keq_R173 =553075.811271694; 
+
+Kcat_V_R173 =1; 
+Km_GlutarylCoA_eEC1814 =0.020277608; 
+Km__2Oxoadipate_eEC1814 =0.116938278; 
+
+Kcat_F_R174 =255.59684769999998; 
+Kcat_R_R174 =266.91155656666666; 
+
+Keq_R174 =88228.45482994754; 
+
+Kcat_V_R174 =1; 
+Km_SucCoA_eEC1814 =0.020413773; 
+Km_aKG_eEC1814 =0.162106812; 
+
+Kcat_F_R175 =26.416886086666665; 
+Kcat_R_R175 =29.571134916666665; 
+
+Keq_R175 =998855.9306379288; 
+
+Kcat_V_R175 =1; 
+Km_NADH_eEC23112 =0.023208896; 
+Km_CO2_eEC23112 =0.280183613; 
+Km_AcCoA_eEC23112 =0.026032073; 
+Km_H_eEC23112 =0.221310824; 
+Km_NAD_eEC23112 =0.026235035; 
+Km_CoA_eEC23112 =0.031586375; 
+Km_Pyr_eEC23112 =0.168190986; 
+
+Kcat_F_R176 =0.925789301; 
+Kcat_R_R176 =0.8828594493333334; 
+
+Keq_R176 =553075.811271694; 
+
+Kcat_V_R176 =1; 
+Km_NADH_eEC23161 =0.0277845; 
+Km_CO2_eEC23161 =0.328845918; 
+Km_H_eEC23161 =0.236688018; 
+Km_GlutarylCoA_eEC23161 =0.025667293; 
+Km_NAD_eEC23161 =0.054326154; 
+Km_CoA_eEC23161 =0.029741414; 
+Km__2Oxoadipate_eEC23161 =0.083035164; 
+
+Kcat_F_R177 =0.9191576843333334; 
+Kcat_R_R177 =0.8908216133333333; 
+
+Keq_R177 =88228.45482994754; 
+
+Kcat_V_R177 =1; 
+Km_SucCoA_eEC23161 =0.025520761; 
+Km_aKG_eEC23161 =0.172540799; 
+
+Kcat_F_R181 =137.86074693; 
+Kcat_R_R181 =541.25; 
+
+Keq_R181 =0.0002419607076574943; 
+
+Kcat_V_R181 =1; 
+Km_NADH_eEC11128 =0.08124999999999999; 
+Km_Pyr_eEC11128 =5.975; 
+Km_H_eEC11128 =2.627151012; 
+Km_NAD_eEC11128 =0.073235102; 
+Km_DLactate_eEC11128 =0.774313986; 
+
+Kcat_F_R204 =55.60223539; 
+Kcat_R_R204 =2921.884996635; 
+
+Keq_R204 =0.25101855338099716; 
+
+Kcat_V_R204 =1; 
+Km_H2O_eEC4212 =6.656438828; 
+Km_Fum_eEC4212 =0.910608768; 
+Km_Mal_eEC4212 =1.7; 
+
+Kcat_F_R245 =60.577380265500004; 
+Kcat_R_R245 =45.422178985; 
+
+Keq_R245 =904979.0061266806; 
+
+Kcat_V_R245 =1; 
+Km_GSH_eEC3126 =0.190951452; 
+Km_DLactate_eEC3126 =0.702433646; 
+Km_H2O_eEC3126 =1.413865328; 
+Km_SDLactoylglutathione_eEC3126 =0.163828984; 
+
+Kcat_F_R255 =45.913566013; 
+Kcat_R_R255 =7.140433394333333; 
+
+Keq_R255 =0.11281894315674511; 
+
+Kcat_V_R255 =1; 
+Km_NADPH_eEC11142 =0.000715; 
+Km_CO2_eEC11142 =0.505214036; 
+Km_aKG_eEC11142 =2.75; 
+Km_H_eEC11142 =2.13827467; 
+Km_NADP_eEC11142 =0.01485; 
+Km_Isocitrate_eEC11142 =0.074271195; 
+
+Kcat_F_R256 =22.23114258; 
+Kcat_R_R256 =5.840927925; 
+
+Keq_R256 =63.94430239079518; 
+
+Kcat_V_R256 =1; 
+Km_Oxalosuccinicacid_eEC11142 =0.069090471; 
+
+Kcat_F_R257 =45.913566013; 
+Kcat_R_R257 =15.985293456499999; 
+
+Keq_R257 =0.0017643314406223848; 
+
+Kcat_V_R257 =1; 
+Kcat_F_R268 =3.0071600060000003; 
+Kcat_R_R268 =467.479811568; 
+
+Keq_R268 =2.2614869409243306e-05; 
+
+Kcat_V_R268 =1; 
+Km_NADH_eEC11137 =0.061; 
+Km_Oxa_eEC11137 =0.0445; 
+Km_H_eEC11137 =1.627506971; 
+Km_NAD_eEC11137 =0.105280019; 
+Km_Mal_eEC11137 =0.00012; 
+
+Kcat_F_R270 =69.8151725645; 
+Kcat_R_R270 =6.5988501500000005; 
+
+Keq_R270 =0.0075538015167582965; 
+
+Kcat_V_R270 =1; 
+Km_NADH_eEC11138 =0.025; 
+Km_CO2_eEC11138 =2.194042683; 
+Km_Pyr_eEC11138 =1.729395628; 
+Km_H_eEC11138 =11.55059338; 
+Km_NAD_eEC11138 =0.065783687; 
+Km_Mal_eEC11138 =0.42; 
+
+Kcat_F_R271 =12.41888125; 
+Kcat_R_R271 =7.0515107845; 
+
+Keq_R271 =334.01924106052337; 
+
+Kcat_V_R271 =1; 
+Km_Oxa_eEC11138 =3.9666666666666663; 
+
+Kcat_F_R272 =48.624275915; 
+Kcat_R_R272 =112.87186270000001; 
+
+Keq_R272 =0.007547267415633792; 
+
+Kcat_V_R272 =1; 
+Km_NADPH_eEC11140 =0.033877365; 
+Km_CO2_eEC11140 =3.163388014; 
+Km_Pyr_eEC11140 =1.306477547; 
+Km_H_eEC11140 =8.466877937; 
+Km_NADP_eEC11140 =0.0415; 
+Km_Mal_eEC11140 =3.41; 
+
+Kcat_F_R273 =318.2635949; 
+Kcat_R_R273 =116.97114325000001; 
+
+Keq_R273 =334.01924106052337; 
+
+Kcat_V_R273 =1; 
+Km_Oxa_eEC11140 =0.527139127; 
+
+Kcat_F_R299 =3.747217959999999; 
+Kcat_R_R299 =3.8586726893333334; 
+
+Keq_R299 =553075.811271694; 
+
+Kcat_V_R299 =1; 
+Km_NADH_eEC1242 =0.035209294; 
+Km_CO2_eEC1242 =0.496151149; 
+Km_H_eEC1242 =0.608380556; 
+Km_GlutarylCoA_eEC1242 =0.052975662; 
+Km_NAD_eEC1242 =0.127414092; 
+Km_CoA_eEC1242 =0.066362962; 
+Km__2Oxoadipate_eEC1242 =0.131888092; 
+
+Kcat_F_R300 =9.177964679666667; 
+Kcat_R_R300 =3.939460558666667; 
+
+Keq_R300 =88228.45482994754; 
+
+Kcat_V_R300 =1; 
+Km_SucCoA_eEC1242 =0.053117804; 
+Km_aKG_eEC1242 =332.91150000000005; 
+
+Kcat_F_R304 =129.904416; 
+Kcat_R_R304 =195.3815149; 
+
+Keq_R304 =0.03018794532971716; 
+
+Kcat_V_R304 =1; 
+Km_CoA_eEC2318 =0.067; 
+Km_Acetylphosphate_eEC2318 =0.9; 
+Km_PO4_eEC2318 =0.737116456; 
+Km_AcCoA_eEC2318 =0.045; 
+
+Kcat_F_R305 =168.99879090000002; 
+Kcat_R_R305 =139.66950745; 
+
+Keq_R305 =0.00023954653771310122; 
+
+Kcat_V_R305 =1; 
+Km_Propanoylphosphate_eEC2318 =0.271658391; 
+Km_PropaCoA_eEC2318 =0.032027643; 
+
+Kcat_F_R307 =5.82892086; 
+Kcat_R_R307 =4.168236641; 
+
+Keq_R307 =0.013703140825955655; 
+
+Kcat_V_R307 =1; 
+Km_ADP_eEC41149 =0.087266445; 
+Km_CO2_eEC41149 =5.647358418; 
+Km_PEP_eEC41149 =2.1575; 
+Km_ATP_eEC41149 =0.061518487; 
+Km_Oxa_eEC41149 =0.67; 
+
+Kcat_F_R308 =1.9991497465; 
+Kcat_R_R308 =182.13826616166668; 
+
+Keq_R308 =8.730133459842129e-08; 
+
+Kcat_V_R308 =1; 
+Km_H2O_eEC41131 =0.812425554; 
+Km_CO2_eEC41131 =1.559197068; 
+Km_PEP_eEC41131 =0.19; 
+Km_PO4_eEC41131 =1.123651147; 
+Km_Oxa_eEC41131 =0.484438777; 
+
+Kcat_F_R346 =15.722195232666666; 
+Kcat_R_R346 =4.4501311973333335; 
+
+Keq_R346 =998855.9306379288; 
+
+Kcat_V_R346 =1; 
+Km_NADH_eEC1241 =0.029656347; 
+Km_CO2_eEC1241 =0.413209707; 
+Km_AcCoA_eEC1241 =0.036603667; 
+Km_H_eEC1241 =0.307893664; 
+Km_NAD_eEC1241 =0.064532936; 
+Km_CoA_eEC1241 =0.040530939; 
+Km_Pyr_eEC1241 =0.38795; 
+
+Kcat_F_R347 =10.6279720875; 
+Kcat_R_R347 =7.9375634995; 
+
+Keq_R347 =4.102500437533981e-05; 
+
+Kcat_V_R347 =1; 
+Km_ADP_eEC27140 =0.051032659; 
+Km_PEP_eEC27140 =0.144000247; 
+Km_ATP_eEC27140 =0.044206705; 
+Km_Pyr_eEC27140 =0.87643075; 
+
+Kcat_F_R351 =4.470776205666667; 
+Kcat_R_R351 =4.215818079333333; 
+
+Keq_R351 =7.370111364902889; 
+
+Kcat_V_R351 =1; 
+Km_PO4_eEC2792 =1.4596771; 
+Km_AMP_eEC2792 =0.023508446; 
+Km_PEP_eEC2792 =0.141774222; 
+Km_H2O_eEC2792 =0.2813887; 
+Km_ATP_eEC2792 =0.021786314; 
+Km_Pyr_eEC2792 =0.083; 
+
+Kcat_F_R371 =21.95; 
+Kcat_R_R371 =349.5079144075; 
+
+Keq_R371 =17031.36077352121; 
+
+Kcat_V_R371 =1; 
+Km_Fum_eEC1351 =0.230714247; 
+Km_QH2_eEC1351 =0.019629668; 
+Km_Succinate_eEC1351 =27.275; 
+Km_Ubiquinone_eEC1351 =0.01200348; 
+
+Kcat_F_R372 =37.55658575333333; 
+Kcat_R_R372 =30.505424926666667; 
+
+Keq_R372 =1.6323302120938148; 
+
+Kcat_V_R372 =1; 
+Km_ADP_eEC6215 =0.045971252; 
+Km_PO4_eEC6215 =1.423858166; 
+Km_SucCoA_eEC6215 =0.046856858; 
+Km_ATP_eEC6215 =0.059107885; 
+Km_CoA_eEC6215 =4.0; 
+Km_Succinate_eEC6215 =0.25; 
+
+Kcat_F_R373 =23.14658575333333; 
+Kcat_R_R373 =31.080438466666664; 
+
+Keq_R373 =6.495746321416216; 
+
+Kcat_V_R373 =1; 
+Km_ItaconylCoA_eEC6215 =0.049482018; 
+Km_Itaconate_eEC6215 =0.475; 
+
+Kcat_F_R406 =3.547282326; 
+Kcat_R_R406 =16.004088045; 
+
+Keq_R406 =194010.3367263319; 
+
+Kcat_V_R406 =1; 
+Km_NH3_hEC43117 =2.321814537; 
+Km_Pyr_hEC43117 =0.786924958; 
+Km_Serine_hEC43117 =0.995956302; 
+
+Kcat_F_R197 =12.1695376695; 
+Kcat_R_R197 =26.700187375; 
+
+Keq_R197 =336.0231457353914; 
+
+Kcat_V_R197 =1; 
+Km_Formate_hEC11719 =6.299069881; 
+Km_NAD_hEC11719 =0.179658741; 
+Km_H_hEC11719 =3.996599674; 
+Km_CO2_hEC11719 =3.174462318; 
+Km_NADH_hEC11719 =0.080049999; 
+
+Kcat_F_R269 =3.0071600060000003; 
+Kcat_R_R269 =467.479811568; 
+
+Keq_R269 =2.2614869409243306e-05; 
+
+Kcat_V_R269 =1; 
+Km_NADH_hEC11137 =0.061; 
+Km_Oxa_hEC11137 =0.0445; 
+Km_H_hEC11137 =1.627506971; 
+Km_NAD_hEC11137 =0.105280019; 
+Km_Mal_hEC11137 =0.00012; 
+
+Kcat_F_R345 =7.969744614476191; 
+Kcat_R_R345 =1.3504319023333335; 
+
+Keq_R345 =18.246066896771694; 
+
+Kcat_V_R345 =1; 
+Km_ADP_hEC6411 =0.060795698; 
+Km_PO4_hEC6411 =1.167335033; 
+Km_Oxa_hEC6411 =0.202194154; 
+Km_ATP_hEC6411 =0.069778137; 
+Km_Pyr_hEC6411 =9.7; 
+Km_CO2_hEC6411 =10.8; 
+
+Kcat_F_R62 =4.7650851455000005; 
+Kcat_R_R62 =38.599999999999994; 
+
+Keq_R62 =1.8368421483937752e-05; 
+
+Kcat_V_R62 =1; 
+Km_Pyr_eEC2216 =11.079999999999998; 
+Km_CO2_eEC2216 =5.445468903; 
+Km_S2Acetolactate_eEC2216 =0.855534971; 
+
+Kcat_F_R63 =20.949999999999996; 
+Kcat_R_R63 =4.669526023; 
+
+Keq_R63 =1611.9619684471538; 
+
+Kcat_V_R63 =1; 
+Km_S2Aceto2hydroxybutanoate_eEC2216 =1.518301487; 
+Km__2Oxobutanoate_eEC2216 =150.0055; 
+
+Kcat_F_R227 =0.721411978; 
+Kcat_R_R227 =1.1328265275; 
+
+Keq_R227 =0.06610281648507778; 
+
+Kcat_V_R227 =1; 
+Km_Serine_eEC2121 =0.680456936; 
+Km_THF_eEC2121 =0.048434764; 
+Km_H2O_eEC2121 =1.743806124; 
+Km_Glycine_eEC2121 =1.084210277; 
+Km__510CH2THF_eEC2121 =0.031294227; 
+
+Kcat_F_R228 =0.9187239225; 
+Kcat_R_R228 =0.7097989373333333; 
+
+Keq_R228 =33.9072014058265; 
+
+Kcat_V_R228 =1; 
+Km__510MTHMPT_eEC2121 =0.032590855; 
+Km_THMPT_eEC2121 =0.029256012; 
+
+Kcat_F_R219 =123.47175211999998; 
+Kcat_R_R219 =281.02322996666663; 
+
+Keq_R219 =236541.19850465914; 
+
+Kcat_V_R219 =1; 
+Km_ADP_eEC6323 =0.188931838; 
+Km_PO4_eEC6323 =1.817505598; 
+Km_GSH_eEC6323 =0.617069721; 
+Km_ATP_eEC6323 =0.161686391; 
+Km_Glycine_eEC6323 =1.582805872; 
+Km__5GlutCys_eEC6323 =1.826; 
+
+Kcat_F_R224 =3.7902290295; 
+Kcat_R_R224 =6.892366117; 
+
+Keq_R224 =1.7723810792894896e-06; 
+
+Kcat_V_R224 =1; 
+Km_CoA_eEC23129 =0.068333149; 
+Km__2A3OxoBAc_eEC23129 =1.101451039; 
+Km_AcCoA_eEC23129 =0.059; 
+Km_Glycine_eEC23129 =5.073134899; 
+
+Kcat_F_R225 =2.631662783; 
+Kcat_R_R225 =4.818350786; 
+
+Keq_R225 =1; 
+
+Kcat_V_R225 =1; 
+Km_CO2_eEC1442 =1.169795871; 
+Km_GcvHSaminomethylN6dihydrolipoylLlysine_eEC1442 =2.101050198; 
+Km_Glycine_eEC1442 =3.032304525; 
+Km_LipoylP_eEC1442 =2.101050198; 
+
+Kcat_F_R258 =8.906025968; 
+Kcat_R_R258 =13.468705019500002; 
+
+Keq_R258 =0.021305645878763865; 
+
+Kcat_V_R258 =1; 
+Km_Succinate_eEC4131 =0.59; 
+Km_Glyox_eEC4131 =0.13; 
+Km_Isocitrate_eEC4131 =0.235073432; 
+
+kdeg_eEC2721 =0.0001; 
+kdeg_eEC6211 =0.0001; 
+kdeg_eEC6412 =0.0001; 
+kdeg_eEC4213 =0.0001; 
+kdeg_eEC1111 =0.0001; 
+kdeg_eEC1112 =0.0001; 
+kdeg_eEC2338 =0.0001; 
+kdeg_eEC23316 =0.0001; 
+kdeg_eEC1814 =0.0001; 
+kdeg_eEC23112 =0.0001; 
+kdeg_eEC23161 =0.0001; 
+kdeg_eEC11128 =0.0001; 
+kdeg_eEC4212 =0.0001; 
+kdeg_eEC3126 =0.0001; 
+kdeg_eEC11142 =0.0001; 
+kdeg_eEC11137 =0.0001; 
+kdeg_eEC11138 =0.0001; 
+kdeg_eEC11140 =0.0001; 
+kdeg_eEC1242 =0.0001; 
+kdeg_eEC2318 =0.0001; 
+kdeg_eEC41149 =0.0001; 
+kdeg_eEC41131 =0.0001; 
+kdeg_eEC1241 =0.0001; 
+kdeg_eEC27140 =0.0001; 
+kdeg_eEC2792 =0.0001; 
+kdeg_eEC1351 =0.0001; 
+kdeg_eEC6215 =0.0001; 
+kdeg_hEC43117 =0.0001; 
+kdeg_hEC11719 =0.0001; 
+kdeg_hEC11137 =0.0001; 
+kdeg_hEC6411 =0.0001; 
+kdeg_eEC2216 =0.0001; 
+kdeg_eEC2121 =0.0001; 
+kdeg_eEC6323 =0.0001; 
+kdeg_eEC23129 =0.0001; 
+kdeg_eEC1442 =0.0001; 
+kdeg_eEC4131 =0.0001; 
+
+# Initialize variables 
+v6 =1; 
+v14 =1; 
+v37 =1; 
+v69 =1; 
+v72 =1; 
+v73 =1; 
+v147 =1; 
+v160 =1; 
+v170 =1; 
+v180 =1; 
+v207 =1; 
+v224 =1; 
+v237 =1; 
+v238 =1; 
+v260 =1; 
+v263 =1; 
+v265 =1; 
+v277 =1; 
+v279 =1; 
+v295 =1; 
+v298 =1; 
+v310 =1; 
+v312 =1; 
+v325 =1; 
+v326 =1; 
+v327 =1; 
+v338 =1; 
+v346 =1; 
+v359 =1; 
+v373 =1; 
+v386 =1; 
+v391 =1; 
+v392 =1; 
+v403 =1; 
+v409 =1; 
+v431 =1; 
+v435 =1; 
+v440 =1; 
+v466 =1; 
+v470 =1; 
+v483 =1; 
+v494 =1; 
+v496 =1; 
+v501 =1; 
+v509 =1; 
+v534 =1; 
+v539 =1; 
+v555 =1; 
+v563 =1; 
+v577 =1; 
+v581 =1; 
+v593 =1; 
+v611 =1; 
+v653 =1; 
+v658 =1; 
+v673 =1; 
+v674 =1; 
+v683 =1; 
+v712 =1; 
+v734 =1; 
+v757 =1; 
+v763 =1; 
+v764 =1; 
+rel0 =1; 
+p_eEC6215 =1; 
+p_eEC4213 =1; 
+p_eEC1242 =1; 
+p_eEC11137 =1; 
+p_eEC1814 =1; 
+p_eEC1241 =1; 
+p_eEC23316 =1; 
+p_eEC27140 =1; 
+p_eEC11142 =1; 
+p_eEC23112 =1; 
+p_eEC23161 =1; 
+p_eEC41149 =1; 
+p_eEC2792 =1; 
+p_eEC4212 =1; 
+p_eEC2121 =1; 
+p_eEC11140 =1; 
+p_eEC2318 =1; 
+p_eEC1442 =1; 
+p_eEC6211 =1; 
+p_eEC23129 =1; 
+p_eEC6412 =1; 
+p_eEC41131 =1; 
+p_eEC2721 =1; 
+p_eEC4131 =1; 
+p_eEC1351 =1; 
+p_eEC2216 =1; 
+p_eEC6323 =1; 
+p_eEC11138 =1; 
+p_eEC43117 =1; 
+p_eEC3126 =1; 
+p_eEC1111 =1; 
+p_eEC11128 =1; 
+p_eEC1112 =1; 
+rel1 =1; 
+p_hEC11137 =1; 
+rel2 =1; 
+p_hEC43117 =1; 
+rel3 =1; 
+p_hEC6411 =1; 
+rel4 =1; 
+p_hEC11719 =1; 
+dilution_factor =1; 
+Gnc_CitrateHCT_eEC23316 =1; 
+Gc_CitrateHCT_eEC23316 =1; 
+Gnc__3AMP_eEC23316 =1; 
+Gc__3AMP_eEC23316 =1; 
+Gnc_aKG_eEC23316 =1; 
+Gc_aKG_eEC23316 =1; 
+Gnc_PropaCoA_eEC23316 =1; 
+Gc_PropaCoA_eEC23316 =1; 
+Gnc_NADH_eEC23316 =1; 
+Gc_NADH_eEC23316 =1; 
+# Define specified reactions 
+
+R56 : 1 ADP + 1 Acetylphosphate + eEC2721 -> eEC2721 + 1 ATP + 1 Acetate; 
+R56_D := (((1+ADP/Km_ADP_eEC2721)^1)*((1+Acetylphosphate/Km_Acetylphosphate_eEC2721)^1) + ((1+ATP/Km_ATP_eEC2721)^1)*((1+Acetate/Km_Acetate_eEC2721)^1) -1); 
+hKcat_F_R56 := Kcat_V_R56*(Keq_R56*((Km_ADP_eEC2721^1)*(Km_Acetylphosphate_eEC2721^1))/((Km_ATP_eEC2721^1)*(Km_Acetate_eEC2721^1)))^(0.5); 
+hKcat_R_R56 := Kcat_V_R56*(Keq_R56*((Km_ADP_eEC2721^1)*(Km_Acetylphosphate_eEC2721^1))/((Km_ATP_eEC2721^1)*(Km_Acetate_eEC2721^1)))^(-0.5); 
+R56_f := eEC2721 * (hKcat_F_R56*((ADP^1)*(Acetylphosphate^1))/((Km_ADP_eEC2721^1)*(Km_Acetylphosphate_eEC2721^1)))/R56_D; 
+R56_r := eEC2721 * (hKcat_R_R56*((ATP^1)*(Acetate^1))/((Km_ATP_eEC2721^1)*(Km_Acetate_eEC2721^1)))/R56_D; 
+R56 = R56_f - R56_r; 
+
+R57 : 1 ADP + 1 Propanoylphosphate + eEC2721 -> eEC2721 + 1 ATP + 1 Propanoate; 
+R57_D := (((1+ADP/Km_ADP_eEC2721)^1)*((1+Propanoylphosphate/Km_Propanoylphosphate_eEC2721)^1) + ((1+ATP/Km_ATP_eEC2721)^1)*((1+Propanoate/Km_Propanoate_eEC2721)^1) -1); 
+hKcat_F_R57 := Kcat_V_R57*(Keq_R57*((Km_ADP_eEC2721^1)*(Km_Propanoylphosphate_eEC2721^1))/((Km_ATP_eEC2721^1)*(Km_Propanoate_eEC2721^1)))^(0.5); 
+hKcat_R_R57 := Kcat_V_R57*(Keq_R57*((Km_ADP_eEC2721^1)*(Km_Propanoylphosphate_eEC2721^1))/((Km_ATP_eEC2721^1)*(Km_Propanoate_eEC2721^1)))^(-0.5); 
+R57_f := eEC2721 * (hKcat_F_R57*((ADP^1)*(Propanoylphosphate^1))/((Km_ADP_eEC2721^1)*(Km_Propanoylphosphate_eEC2721^1)))/R57_D; 
+R57_r := eEC2721 * (hKcat_R_R57*((ATP^1)*(Propanoate^1))/((Km_ATP_eEC2721^1)*(Km_Propanoate_eEC2721^1)))/R57_D; 
+R57 = R57_f - R57_r; 
+
+R58 : 1 ATP + 1 CoA + 1 Acetate + eEC6211 -> eEC6211 + 1 PPi + 1 AMP + 1 AcCoA; 
+R58_D := (((1+ATP/Km_ATP_eEC6211)^1)*((1+CoA/Km_CoA_eEC6211)^1)*((1+Acetate/Km_Acetate_eEC6211)^1) + ((1+PPi/Km_PPi_eEC6211)^1)*((1+AMP/Km_AMP_eEC6211)^1)*((1+AcCoA/Km_AcCoA_eEC6211)^1) -1); 
+hKcat_F_R58 := Kcat_V_R58*(Keq_R58*((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Acetate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1)))^(0.5); 
+hKcat_R_R58 := Kcat_V_R58*(Keq_R58*((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Acetate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1)))^(-0.5); 
+R58_f := eEC6211 * (hKcat_F_R58*((ATP^1)*(CoA^1)*(Acetate^1))/((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Acetate_eEC6211^1)))/R58_D; 
+R58_r := eEC6211 * (hKcat_R_R58*((PPi^1)*(AMP^1)*(AcCoA^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1)))/R58_D; 
+R58 = R58_f - R58_r; 
+
+R59 : 1 AMP + 1 AcCoA + eEC6211 -> eEC6211 + 1 CoA + 1 Acetyladenylate; 
+R59_D := (((1+AMP/Km_AMP_eEC6211)^1)*((1+AcCoA/Km_AcCoA_eEC6211)^1) + ((1+CoA/Km_CoA_eEC6211)^1)*((1+Acetyladenylate/Km_Acetyladenylate_eEC6211)^1) -1); 
+hKcat_F_R59 := Kcat_V_R59*(Keq_R59*((Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1))/((Km_CoA_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))^(0.5); 
+hKcat_R_R59 := Kcat_V_R59*(Keq_R59*((Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1))/((Km_CoA_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))^(-0.5); 
+R59_f := eEC6211 * (hKcat_F_R59*((AMP^1)*(AcCoA^1))/((Km_AMP_eEC6211^1)*(Km_AcCoA_eEC6211^1)))/R59_D; 
+R59_r := eEC6211 * (hKcat_R_R59*((CoA^1)*(Acetyladenylate^1))/((Km_CoA_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))/R59_D; 
+R59 = R59_f - R59_r; 
+
+R60 : 1 ATP + 1 Acetate + eEC6211 -> eEC6211 + 1 PPi + 1 Acetyladenylate; 
+R60_D := (((1+ATP/Km_ATP_eEC6211)^1)*((1+Acetate/Km_Acetate_eEC6211)^1) + ((1+PPi/Km_PPi_eEC6211)^1)*((1+Acetyladenylate/Km_Acetyladenylate_eEC6211)^1) -1); 
+hKcat_F_R60 := Kcat_V_R60*(Keq_R60*((Km_ATP_eEC6211^1)*(Km_Acetate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))^(0.5); 
+hKcat_R_R60 := Kcat_V_R60*(Keq_R60*((Km_ATP_eEC6211^1)*(Km_Acetate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))^(-0.5); 
+R60_f := eEC6211 * (hKcat_F_R60*((ATP^1)*(Acetate^1))/((Km_ATP_eEC6211^1)*(Km_Acetate_eEC6211^1)))/R60_D; 
+R60_r := eEC6211 * (hKcat_R_R60*((PPi^1)*(Acetyladenylate^1))/((Km_PPi_eEC6211^1)*(Km_Acetyladenylate_eEC6211^1)))/R60_D; 
+R60 = R60_f - R60_r; 
+
+R61 : 1 ATP + 1 CoA + 1 Propanoate + eEC6211 -> eEC6211 + 1 PPi + 1 AMP + 1 PropaCoA; 
+R61_D := (((1+ATP/Km_ATP_eEC6211)^1)*((1+CoA/Km_CoA_eEC6211)^1)*((1+Propanoate/Km_Propanoate_eEC6211)^1) + ((1+PPi/Km_PPi_eEC6211)^1)*((1+AMP/Km_AMP_eEC6211)^1)*((1+PropaCoA/Km_PropaCoA_eEC6211)^1) -1); 
+hKcat_F_R61 := Kcat_V_R61*(Keq_R61*((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Propanoate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_PropaCoA_eEC6211^1)))^(0.5); 
+hKcat_R_R61 := Kcat_V_R61*(Keq_R61*((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Propanoate_eEC6211^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_PropaCoA_eEC6211^1)))^(-0.5); 
+R61_f := eEC6211 * (hKcat_F_R61*((ATP^1)*(CoA^1)*(Propanoate^1))/((Km_ATP_eEC6211^1)*(Km_CoA_eEC6211^1)*(Km_Propanoate_eEC6211^1)))/R61_D; 
+R61_r := eEC6211 * (hKcat_R_R61*((PPi^1)*(AMP^1)*(PropaCoA^1))/((Km_PPi_eEC6211^1)*(Km_AMP_eEC6211^1)*(Km_PropaCoA_eEC6211^1)))/R61_D; 
+R61 = R61_f - R61_r; 
+
+R64 : 1 ATP + 1 AcCoA + 1 CO2 + eEC6412 -> eEC6412 + 1 ADP + 1 PO4 + 1 MaloCoA; 
+R64_D := (((1+ATP/Km_ATP_eEC6412)^1)*((1+AcCoA/Km_AcCoA_eEC6412)^1)*((1+CO2/Km_CO2_eEC6412)^1) + ((1+ADP/Km_ADP_eEC6412)^1)*((1+PO4/Km_PO4_eEC6412)^1)*((1+MaloCoA/Km_MaloCoA_eEC6412)^1) -1); 
+hKcat_F_R64 := Kcat_V_R64*(Keq_R64*((Km_ATP_eEC6412^1)*(Km_AcCoA_eEC6412^1)*(Km_CO2_eEC6412^1))/((Km_ADP_eEC6412^1)*(Km_PO4_eEC6412^1)*(Km_MaloCoA_eEC6412^1)))^(0.5); 
+hKcat_R_R64 := Kcat_V_R64*(Keq_R64*((Km_ATP_eEC6412^1)*(Km_AcCoA_eEC6412^1)*(Km_CO2_eEC6412^1))/((Km_ADP_eEC6412^1)*(Km_PO4_eEC6412^1)*(Km_MaloCoA_eEC6412^1)))^(-0.5); 
+R64_f := eEC6412 * (hKcat_F_R64*((ATP^1)*(AcCoA^1)*(CO2^1))/((Km_ATP_eEC6412^1)*(Km_AcCoA_eEC6412^1)*(Km_CO2_eEC6412^1)))/R64_D; 
+R64_r := eEC6412 * (hKcat_R_R64*((ADP^1)*(PO4^1)*(MaloCoA^1))/((Km_ADP_eEC6412^1)*(Km_PO4_eEC6412^1)*(Km_MaloCoA_eEC6412^1)))/R64_D; 
+R64 = R64_f - R64_r; 
+
+R69 : 1 Citrate + eEC4213 -> eEC4213 + 1 Isocitrate; 
+R69_D := (((1+Citrate/Km_Citrate_eEC4213)^1) + ((1+Isocitrate/Km_Isocitrate_eEC4213)^1) -1); 
+hKcat_F_R69 := Kcat_V_R69*(Keq_R69*((Km_Citrate_eEC4213^1))/((Km_Isocitrate_eEC4213^1)))^(0.5); 
+hKcat_R_R69 := Kcat_V_R69*(Keq_R69*((Km_Citrate_eEC4213^1))/((Km_Isocitrate_eEC4213^1)))^(-0.5); 
+R69_f := eEC4213 * (hKcat_F_R69*((Citrate^1))/((Km_Citrate_eEC4213^1)))/R69_D; 
+R69_r := eEC4213 * (hKcat_R_R69*((Isocitrate^1))/((Km_Isocitrate_eEC4213^1)))/R69_D; 
+R69 = R69_f - R69_r; 
+
+R70 : 1 Citrate + eEC4213 -> eEC4213 + 1 H2O + 1 cAcon; 
+R70_D := (((1+Citrate/Km_Citrate_eEC4213)^1) + ((1+cAcon/Km_cAcon_eEC4213)^1) -1); 
+hKcat_F_R70 := Kcat_V_R70*(Keq_R70*((Km_Citrate_eEC4213^1))/((Km_cAcon_eEC4213^1)))^(0.5); 
+hKcat_R_R70 := Kcat_V_R70*(Keq_R70*((Km_Citrate_eEC4213^1))/((Km_cAcon_eEC4213^1)))^(-0.5); 
+R70_f := eEC4213 * (hKcat_F_R70*((Citrate^1))/((Km_Citrate_eEC4213^1)))/R70_D; 
+R70_r := eEC4213 * (hKcat_R_R70*((cAcon^1))/((Km_cAcon_eEC4213^1)))/R70_D; 
+R70 = R70_f - R70_r; 
+
+R71 : 1 Isocitrate + eEC4213 -> eEC4213 + 1 H2O + 1 cAcon; 
+R71_D := (((1+Isocitrate/Km_Isocitrate_eEC4213)^1) + ((1+cAcon/Km_cAcon_eEC4213)^1) -1); 
+hKcat_F_R71 := Kcat_V_R71*(Keq_R71*((Km_Isocitrate_eEC4213^1))/((Km_cAcon_eEC4213^1)))^(0.5); 
+hKcat_R_R71 := Kcat_V_R71*(Keq_R71*((Km_Isocitrate_eEC4213^1))/((Km_cAcon_eEC4213^1)))^(-0.5); 
+R71_f := eEC4213 * (hKcat_F_R71*((Isocitrate^1))/((Km_Isocitrate_eEC4213^1)))/R71_D; 
+R71_r := eEC4213 * (hKcat_R_R71*((cAcon^1))/((Km_cAcon_eEC4213^1)))/R71_D; 
+R71 = R71_f - R71_r; 
+
+R83 : 1 NADH + 1 H + 1 Acetaldehyde + eEC1111 -> eEC1111 + 1 NAD + 1 Ethanol; 
+R83_D := (((1+NADH/Km_NADH_eEC1111)^1)*((1+Acetaldehyde/Km_Acetaldehyde_eEC1111)^1) + ((1+NAD/Km_NAD_eEC1111)^1)*((1+Ethanol/Km_Ethanol_eEC1111)^1) -1); 
+hKcat_F_R83 := Kcat_V_R83*(Keq_R83*((Km_NADH_eEC1111^1)*(Km_Acetaldehyde_eEC1111^1))/((Km_NAD_eEC1111^1)*(Km_Ethanol_eEC1111^1)))^(0.5); 
+hKcat_R_R83 := Kcat_V_R83*(Keq_R83*((Km_NADH_eEC1111^1)*(Km_Acetaldehyde_eEC1111^1))/((Km_NAD_eEC1111^1)*(Km_Ethanol_eEC1111^1)))^(-0.5); 
+R83_f := eEC1111 * (hKcat_F_R83*((NADH^1)*(Acetaldehyde^1))/((Km_NADH_eEC1111^1)*(Km_Acetaldehyde_eEC1111^1)))/R83_D; 
+R83_r := eEC1111 * (hKcat_R_R83*((NAD^1)*(Ethanol^1))/((Km_NAD_eEC1111^1)*(Km_Ethanol_eEC1111^1)))/R83_D; 
+R83 = R83_f - R83_r; 
+
+R90 : 1 NADPH + 1 H + 1 Acetaldehyde + eEC1112 -> eEC1112 + 1 NADP + 1 Ethanol; 
+R90_D := (((1+NADPH/Km_NADPH_eEC1112)^1)*((1+Acetaldehyde/Km_Acetaldehyde_eEC1112)^1) + ((1+NADP/Km_NADP_eEC1112)^1)*((1+Ethanol/Km_Ethanol_eEC1112)^1) -1); 
+hKcat_F_R90 := Kcat_V_R90*(Keq_R90*((Km_NADPH_eEC1112^1)*(Km_Acetaldehyde_eEC1112^1))/((Km_NADP_eEC1112^1)*(Km_Ethanol_eEC1112^1)))^(0.5); 
+hKcat_R_R90 := Kcat_V_R90*(Keq_R90*((Km_NADPH_eEC1112^1)*(Km_Acetaldehyde_eEC1112^1))/((Km_NADP_eEC1112^1)*(Km_Ethanol_eEC1112^1)))^(-0.5); 
+R90_f := eEC1112 * (hKcat_F_R90*((NADPH^1)*(Acetaldehyde^1))/((Km_NADPH_eEC1112^1)*(Km_Acetaldehyde_eEC1112^1)))/R90_D; 
+R90_r := eEC1112 * (hKcat_R_R90*((NADP^1)*(Ethanol^1))/((Km_NADP_eEC1112^1)*(Km_Ethanol_eEC1112^1)))/R90_D; 
+R90 = R90_f - R90_r; 
+
+R123 : 1 ATP + 1 CoA + 1 Citrate + eEC2338 -> eEC2338 + 1 ADP + 1 PO4 + 1 AcCoA + 1 Oxa; 
+R123_D := (((1+ATP/Km_ATP_eEC2338)^1)*((1+CoA/Km_CoA_eEC2338)^1)*((1+Citrate/Km_Citrate_eEC2338)^1) + ((1+ADP/Km_ADP_eEC2338)^1)*((1+PO4/Km_PO4_eEC2338)^1)*((1+AcCoA/Km_AcCoA_eEC2338)^1)*((1+Oxa/Km_Oxa_eEC2338)^1) -1); 
+hKcat_F_R123 := Kcat_V_R123*(Keq_R123*((Km_ATP_eEC2338^1)*(Km_CoA_eEC2338^1)*(Km_Citrate_eEC2338^1))/((Km_ADP_eEC2338^1)*(Km_PO4_eEC2338^1)*(Km_AcCoA_eEC2338^1)*(Km_Oxa_eEC2338^1)))^(0.5); 
+hKcat_R_R123 := Kcat_V_R123*(Keq_R123*((Km_ATP_eEC2338^1)*(Km_CoA_eEC2338^1)*(Km_Citrate_eEC2338^1))/((Km_ADP_eEC2338^1)*(Km_PO4_eEC2338^1)*(Km_AcCoA_eEC2338^1)*(Km_Oxa_eEC2338^1)))^(-0.5); 
+R123_f := eEC2338 * (hKcat_F_R123*((ATP^1)*(CoA^1)*(Citrate^1))/((Km_ATP_eEC2338^1)*(Km_CoA_eEC2338^1)*(Km_Citrate_eEC2338^1)))/R123_D; 
+R123_r := eEC2338 * (hKcat_R_R123*((ADP^1)*(PO4^1)*(AcCoA^1)*(Oxa^1))/((Km_ADP_eEC2338^1)*(Km_PO4_eEC2338^1)*(Km_AcCoA_eEC2338^1)*(Km_Oxa_eEC2338^1)))/R123_D; 
+R123 = R123_f - R123_r; 
+
+R157 : 1 H2O + 1 AcCoA + 1 Oxa + eEC23316 -> eEC23316 + 1 CoA + 1 Citrate; 
+eEC23316_fr := (Gnc_NADH_eEC23316+(1-Gnc_NADH_eEC23316)*(1/(1+NADH/Ki_NADH_eEC23316)))*(Gnc_aKG_eEC23316+(1-Gnc_aKG_eEC23316)*(1/(1+aKG/Ki_aKG_eEC23316)))*(Gnc_PropaCoA_eEC23316+(1-Gnc_PropaCoA_eEC23316)*(1/(1+PropaCoA/Ki_PropaCoA_eEC23316)))*(Gnc_CitrateHCT_eEC23316+(1-Gnc_CitrateHCT_eEC23316)*(1/(1+CitrateHCT/Ki_CitrateHCT_eEC23316)))*(Gnc__3AMP_eEC23316+(1-Gnc__3AMP_eEC23316)*(1/(1+_3AMP/Ki__3AMP_eEC23316))); 
+eEC23316_Dreg := (1-Gc_NADH_eEC23316)*(NADH/Ki_NADH_eEC23316)+(1-Gc_aKG_eEC23316)*(aKG/Ki_aKG_eEC23316)+(1-Gc_PropaCoA_eEC23316)*(PropaCoA/Ki_PropaCoA_eEC23316)+(1-Gc_CitrateHCT_eEC23316)*(CitrateHCT/Ki_CitrateHCT_eEC23316)+(1-Gc__3AMP_eEC23316)*(_3AMP/Ki__3AMP_eEC23316); 
+R157_D := (((1+AcCoA/Km_AcCoA_eEC23316)^1)*((1+Oxa/Km_Oxa_eEC23316)^1) + ((1+CoA/Km_CoA_eEC23316)^1)*((1+Citrate/Km_Citrate_eEC23316)^1) -1); 
+hKcat_F_R157 := Kcat_V_R157*(Keq_R157*((Km_AcCoA_eEC23316^1)*(Km_Oxa_eEC23316^1))/((Km_CoA_eEC23316^1)*(Km_Citrate_eEC23316^1)))^(0.5); 
+hKcat_R_R157 := Kcat_V_R157*(Keq_R157*((Km_AcCoA_eEC23316^1)*(Km_Oxa_eEC23316^1))/((Km_CoA_eEC23316^1)*(Km_Citrate_eEC23316^1)))^(-0.5); 
+R157_f := eEC23316 * eEC23316_fr * (hKcat_F_R157*((AcCoA^1)*(Oxa^1))/((Km_AcCoA_eEC23316^1)*(Km_Oxa_eEC23316^1)))/(R157_D + eEC23316_Dreg); 
+R157_r := eEC23316 * eEC23316_fr * (hKcat_R_R157*((CoA^1)*(Citrate^1))/((Km_CoA_eEC23316^1)*(Km_Citrate_eEC23316^1)))/(R157_D + eEC23316_Dreg); 
+R157 = R157_f - R157_r; 
+
+R169 : 1 NADH + 1 H + 1 LipoylP + eEC1814 -> eEC1814 + 1 NAD + 1 Dihydrolipoylprotein; 
+R169_D := (((1+NADH/Km_NADH_eEC1814)^1)*((1+LipoylP/Km_LipoylP_eEC1814)^1) + ((1+NAD/Km_NAD_eEC1814)^1)*((1+Dihydrolipoylprotein/Km_Dihydrolipoylprotein_eEC1814)^1) -1); 
+hKcat_F_R169 := Kcat_V_R169*(Keq_R169*((Km_NADH_eEC1814^1)*(Km_LipoylP_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_Dihydrolipoylprotein_eEC1814^1)))^(0.5); 
+hKcat_R_R169 := Kcat_V_R169*(Keq_R169*((Km_NADH_eEC1814^1)*(Km_LipoylP_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_Dihydrolipoylprotein_eEC1814^1)))^(-0.5); 
+R169_f := eEC1814 * (hKcat_F_R169*((NADH^1)*(LipoylP^1))/((Km_NADH_eEC1814^1)*(Km_LipoylP_eEC1814^1)))/R169_D; 
+R169_r := eEC1814 * (hKcat_R_R169*((NAD^1)*(Dihydrolipoylprotein^1))/((Km_NAD_eEC1814^1)*(Km_Dihydrolipoylprotein_eEC1814^1)))/R169_D; 
+R169 = R169_f - R169_r; 
+
+R171 : 1 NAD + 1 CoA + 1 Pyr + eEC1814 -> eEC1814 + 1 NADH + 1 CO2 + 1 AcCoA + 1 H; 
+R171_D := (((1+NAD/Km_NAD_eEC1814)^1)*((1+CoA/Km_CoA_eEC1814)^1)*((1+Pyr/Km_Pyr_eEC1814)^1) + ((1+NADH/Km_NADH_eEC1814)^1)*((1+CO2/Km_CO2_eEC1814)^1)*((1+AcCoA/Km_AcCoA_eEC1814)^1) -1); 
+hKcat_F_R171 := Kcat_V_R171*(Keq_R171*((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_Pyr_eEC1814^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_AcCoA_eEC1814^1)))^(0.5); 
+hKcat_R_R171 := Kcat_V_R171*(Keq_R171*((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_Pyr_eEC1814^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_AcCoA_eEC1814^1)))^(-0.5); 
+R171_f := eEC1814 * (hKcat_F_R171*((NAD^1)*(CoA^1)*(Pyr^1))/((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_Pyr_eEC1814^1)))/R171_D; 
+R171_r := eEC1814 * (hKcat_R_R171*((NADH^1)*(CO2^1)*(AcCoA^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_AcCoA_eEC1814^1)))/R171_D; 
+R171 = R171_f - R171_r; 
+
+R172 : 1 NADH + 1 CO2 + 1 NH3 + 1 H + 1 _510CH2THF + eEC1814 -> eEC1814 + 1 NAD + 1 Glycine + 1 THF; 
+R172_D := (((1+NADH/Km_NADH_eEC1814)^1)*((1+CO2/Km_CO2_eEC1814)^1)*((1+NH3/Km_NH3_eEC1814)^1)*((1+_510CH2THF/Km__510CH2THF_eEC1814)^1) + ((1+NAD/Km_NAD_eEC1814)^1)*((1+Glycine/Km_Glycine_eEC1814)^1)*((1+THF/Km_THF_eEC1814)^1) -1); 
+hKcat_F_R172 := Kcat_V_R172*(Keq_R172*((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_NH3_eEC1814^1)*(Km__510CH2THF_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_Glycine_eEC1814^1)*(Km_THF_eEC1814^1)))^(0.5); 
+hKcat_R_R172 := Kcat_V_R172*(Keq_R172*((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_NH3_eEC1814^1)*(Km__510CH2THF_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_Glycine_eEC1814^1)*(Km_THF_eEC1814^1)))^(-0.5); 
+R172_f := eEC1814 * (hKcat_F_R172*((NADH^1)*(CO2^1)*(NH3^1)*(_510CH2THF^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_NH3_eEC1814^1)*(Km__510CH2THF_eEC1814^1)))/R172_D; 
+R172_r := eEC1814 * (hKcat_R_R172*((NAD^1)*(Glycine^1)*(THF^1))/((Km_NAD_eEC1814^1)*(Km_Glycine_eEC1814^1)*(Km_THF_eEC1814^1)))/R172_D; 
+R172 = R172_f - R172_r; 
+
+R173 : 1 NADH + 1 CO2 + 1 H + 1 GlutarylCoA + eEC1814 -> eEC1814 + 1 NAD + 1 CoA + 1 _2Oxoadipate; 
+R173_D := (((1+NADH/Km_NADH_eEC1814)^1)*((1+CO2/Km_CO2_eEC1814)^1)*((1+GlutarylCoA/Km_GlutarylCoA_eEC1814)^1) + ((1+NAD/Km_NAD_eEC1814)^1)*((1+CoA/Km_CoA_eEC1814)^1)*((1+_2Oxoadipate/Km__2Oxoadipate_eEC1814)^1) -1); 
+hKcat_F_R173 := Kcat_V_R173*(Keq_R173*((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_GlutarylCoA_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km__2Oxoadipate_eEC1814^1)))^(0.5); 
+hKcat_R_R173 := Kcat_V_R173*(Keq_R173*((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_GlutarylCoA_eEC1814^1))/((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km__2Oxoadipate_eEC1814^1)))^(-0.5); 
+R173_f := eEC1814 * (hKcat_F_R173*((NADH^1)*(CO2^1)*(GlutarylCoA^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_GlutarylCoA_eEC1814^1)))/R173_D; 
+R173_r := eEC1814 * (hKcat_R_R173*((NAD^1)*(CoA^1)*(_2Oxoadipate^1))/((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km__2Oxoadipate_eEC1814^1)))/R173_D; 
+R173 = R173_f - R173_r; 
+
+R174 : 1 NAD + 1 CoA + 1 aKG + eEC1814 -> eEC1814 + 1 NADH + 1 CO2 + 1 H + 1 SucCoA; 
+R174_D := (((1+NAD/Km_NAD_eEC1814)^1)*((1+CoA/Km_CoA_eEC1814)^1)*((1+aKG/Km_aKG_eEC1814)^1) + ((1+NADH/Km_NADH_eEC1814)^1)*((1+CO2/Km_CO2_eEC1814)^1)*((1+SucCoA/Km_SucCoA_eEC1814)^1) -1); 
+hKcat_F_R174 := Kcat_V_R174*(Keq_R174*((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_aKG_eEC1814^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_SucCoA_eEC1814^1)))^(0.5); 
+hKcat_R_R174 := Kcat_V_R174*(Keq_R174*((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_aKG_eEC1814^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_SucCoA_eEC1814^1)))^(-0.5); 
+R174_f := eEC1814 * (hKcat_F_R174*((NAD^1)*(CoA^1)*(aKG^1))/((Km_NAD_eEC1814^1)*(Km_CoA_eEC1814^1)*(Km_aKG_eEC1814^1)))/R174_D; 
+R174_r := eEC1814 * (hKcat_R_R174*((NADH^1)*(CO2^1)*(SucCoA^1))/((Km_NADH_eEC1814^1)*(Km_CO2_eEC1814^1)*(Km_SucCoA_eEC1814^1)))/R174_D; 
+R174 = R174_f - R174_r; 
+
+R175 : 1 NAD + 1 CoA + 1 Pyr + eEC23112 -> eEC23112 + 1 NADH + 1 CO2 + 1 AcCoA + 1 H; 
+R175_D := (((1+NAD/Km_NAD_eEC23112)^1)*((1+CoA/Km_CoA_eEC23112)^1)*((1+Pyr/Km_Pyr_eEC23112)^1) + ((1+NADH/Km_NADH_eEC23112)^1)*((1+CO2/Km_CO2_eEC23112)^1)*((1+AcCoA/Km_AcCoA_eEC23112)^1) -1); 
+hKcat_F_R175 := Kcat_V_R175*(Keq_R175*((Km_NAD_eEC23112^1)*(Km_CoA_eEC23112^1)*(Km_Pyr_eEC23112^1))/((Km_NADH_eEC23112^1)*(Km_CO2_eEC23112^1)*(Km_AcCoA_eEC23112^1)))^(0.5); 
+hKcat_R_R175 := Kcat_V_R175*(Keq_R175*((Km_NAD_eEC23112^1)*(Km_CoA_eEC23112^1)*(Km_Pyr_eEC23112^1))/((Km_NADH_eEC23112^1)*(Km_CO2_eEC23112^1)*(Km_AcCoA_eEC23112^1)))^(-0.5); 
+R175_f := eEC23112 * (hKcat_F_R175*((NAD^1)*(CoA^1)*(Pyr^1))/((Km_NAD_eEC23112^1)*(Km_CoA_eEC23112^1)*(Km_Pyr_eEC23112^1)))/R175_D; 
+R175_r := eEC23112 * (hKcat_R_R175*((NADH^1)*(CO2^1)*(AcCoA^1))/((Km_NADH_eEC23112^1)*(Km_CO2_eEC23112^1)*(Km_AcCoA_eEC23112^1)))/R175_D; 
+R175 = R175_f - R175_r; 
+
+R176 : 1 NADH + 1 CO2 + 1 H + 1 GlutarylCoA + eEC23161 -> eEC23161 + 1 NAD + 1 CoA + 1 _2Oxoadipate; 
+R176_D := (((1+NADH/Km_NADH_eEC23161)^1)*((1+CO2/Km_CO2_eEC23161)^1)*((1+GlutarylCoA/Km_GlutarylCoA_eEC23161)^1) + ((1+NAD/Km_NAD_eEC23161)^1)*((1+CoA/Km_CoA_eEC23161)^1)*((1+_2Oxoadipate/Km__2Oxoadipate_eEC23161)^1) -1); 
+hKcat_F_R176 := Kcat_V_R176*(Keq_R176*((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_GlutarylCoA_eEC23161^1))/((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km__2Oxoadipate_eEC23161^1)))^(0.5); 
+hKcat_R_R176 := Kcat_V_R176*(Keq_R176*((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_GlutarylCoA_eEC23161^1))/((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km__2Oxoadipate_eEC23161^1)))^(-0.5); 
+R176_f := eEC23161 * (hKcat_F_R176*((NADH^1)*(CO2^1)*(GlutarylCoA^1))/((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_GlutarylCoA_eEC23161^1)))/R176_D; 
+R176_r := eEC23161 * (hKcat_R_R176*((NAD^1)*(CoA^1)*(_2Oxoadipate^1))/((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km__2Oxoadipate_eEC23161^1)))/R176_D; 
+R176 = R176_f - R176_r; 
+
+R177 : 1 NAD + 1 CoA + 1 aKG + eEC23161 -> eEC23161 + 1 NADH + 1 CO2 + 1 H + 1 SucCoA; 
+R177_D := (((1+NAD/Km_NAD_eEC23161)^1)*((1+CoA/Km_CoA_eEC23161)^1)*((1+aKG/Km_aKG_eEC23161)^1) + ((1+NADH/Km_NADH_eEC23161)^1)*((1+CO2/Km_CO2_eEC23161)^1)*((1+SucCoA/Km_SucCoA_eEC23161)^1) -1); 
+hKcat_F_R177 := Kcat_V_R177*(Keq_R177*((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km_aKG_eEC23161^1))/((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_SucCoA_eEC23161^1)))^(0.5); 
+hKcat_R_R177 := Kcat_V_R177*(Keq_R177*((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km_aKG_eEC23161^1))/((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_SucCoA_eEC23161^1)))^(-0.5); 
+R177_f := eEC23161 * (hKcat_F_R177*((NAD^1)*(CoA^1)*(aKG^1))/((Km_NAD_eEC23161^1)*(Km_CoA_eEC23161^1)*(Km_aKG_eEC23161^1)))/R177_D; 
+R177_r := eEC23161 * (hKcat_R_R177*((NADH^1)*(CO2^1)*(SucCoA^1))/((Km_NADH_eEC23161^1)*(Km_CO2_eEC23161^1)*(Km_SucCoA_eEC23161^1)))/R177_D; 
+R177 = R177_f - R177_r; 
+
+R181 : 1 NADH + 1 Pyr + 1 H + eEC11128 -> eEC11128 + 1 NAD + 1 DLactate; 
+R181_D := (((1+NADH/Km_NADH_eEC11128)^1)*((1+Pyr/Km_Pyr_eEC11128)^1) + ((1+NAD/Km_NAD_eEC11128)^1)*((1+DLactate/Km_DLactate_eEC11128)^1) -1); 
+hKcat_F_R181 := Kcat_V_R181*(Keq_R181*((Km_NADH_eEC11128^1)*(Km_Pyr_eEC11128^1))/((Km_NAD_eEC11128^1)*(Km_DLactate_eEC11128^1)))^(0.5); 
+hKcat_R_R181 := Kcat_V_R181*(Keq_R181*((Km_NADH_eEC11128^1)*(Km_Pyr_eEC11128^1))/((Km_NAD_eEC11128^1)*(Km_DLactate_eEC11128^1)))^(-0.5); 
+R181_f := eEC11128 * (hKcat_F_R181*((NADH^1)*(Pyr^1))/((Km_NADH_eEC11128^1)*(Km_Pyr_eEC11128^1)))/R181_D; 
+R181_r := eEC11128 * (hKcat_R_R181*((NAD^1)*(DLactate^1))/((Km_NAD_eEC11128^1)*(Km_DLactate_eEC11128^1)))/R181_D; 
+R181 = R181_f - R181_r; 
+
+R204 : 1 Mal + eEC4212 -> eEC4212 + 1 H2O + 1 Fum; 
+R204_D := (((1+Mal/Km_Mal_eEC4212)^1) + ((1+Fum/Km_Fum_eEC4212)^1) -1); 
+hKcat_F_R204 := Kcat_V_R204*(Keq_R204*((Km_Mal_eEC4212^1))/((Km_Fum_eEC4212^1)))^(0.5); 
+hKcat_R_R204 := Kcat_V_R204*(Keq_R204*((Km_Mal_eEC4212^1))/((Km_Fum_eEC4212^1)))^(-0.5); 
+R204_f := eEC4212 * (hKcat_F_R204*((Mal^1))/((Km_Mal_eEC4212^1)))/R204_D; 
+R204_r := eEC4212 * (hKcat_R_R204*((Fum^1))/((Km_Fum_eEC4212^1)))/R204_D; 
+R204 = R204_f - R204_r; 
+
+R245 : 1 H2O + 1 SDLactoylglutathione + eEC3126 -> eEC3126 + 1 GSH + 1 DLactate; 
+R245_D := (((1+SDLactoylglutathione/Km_SDLactoylglutathione_eEC3126)^1) + ((1+GSH/Km_GSH_eEC3126)^1)*((1+DLactate/Km_DLactate_eEC3126)^1) -1); 
+hKcat_F_R245 := Kcat_V_R245*(Keq_R245*((Km_SDLactoylglutathione_eEC3126^1))/((Km_GSH_eEC3126^1)*(Km_DLactate_eEC3126^1)))^(0.5); 
+hKcat_R_R245 := Kcat_V_R245*(Keq_R245*((Km_SDLactoylglutathione_eEC3126^1))/((Km_GSH_eEC3126^1)*(Km_DLactate_eEC3126^1)))^(-0.5); 
+R245_f := eEC3126 * (hKcat_F_R245*((SDLactoylglutathione^1))/((Km_SDLactoylglutathione_eEC3126^1)))/R245_D; 
+R245_r := eEC3126 * (hKcat_R_R245*((GSH^1)*(DLactate^1))/((Km_GSH_eEC3126^1)*(Km_DLactate_eEC3126^1)))/R245_D; 
+R245 = R245_f - R245_r; 
+
+R255 : 1 NADPH + 1 CO2 + 1 aKG + 1 H + eEC11142 -> eEC11142 + 1 NADP + 1 Isocitrate; 
+R255_D := (((1+NADPH/Km_NADPH_eEC11142)^1)*((1+CO2/Km_CO2_eEC11142)^1)*((1+aKG/Km_aKG_eEC11142)^1) + ((1+NADP/Km_NADP_eEC11142)^1)*((1+Isocitrate/Km_Isocitrate_eEC11142)^1) -1); 
+hKcat_F_R255 := Kcat_V_R255*(Keq_R255*((Km_NADPH_eEC11142^1)*(Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1))/((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1)))^(0.5); 
+hKcat_R_R255 := Kcat_V_R255*(Keq_R255*((Km_NADPH_eEC11142^1)*(Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1))/((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1)))^(-0.5); 
+R255_f := eEC11142 * (hKcat_F_R255*((NADPH^1)*(CO2^1)*(aKG^1))/((Km_NADPH_eEC11142^1)*(Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1)))/R255_D; 
+R255_r := eEC11142 * (hKcat_R_R255*((NADP^1)*(Isocitrate^1))/((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1)))/R255_D; 
+R255 = R255_f - R255_r; 
+
+R256 : 1 CO2 + 1 aKG + eEC11142 -> eEC11142 + 1 Oxalosuccinicacid; 
+R256_D := (((1+CO2/Km_CO2_eEC11142)^1)*((1+aKG/Km_aKG_eEC11142)^1) + ((1+Oxalosuccinicacid/Km_Oxalosuccinicacid_eEC11142)^1) -1); 
+hKcat_F_R256 := Kcat_V_R256*(Keq_R256*((Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1))/((Km_Oxalosuccinicacid_eEC11142^1)))^(0.5); 
+hKcat_R_R256 := Kcat_V_R256*(Keq_R256*((Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1))/((Km_Oxalosuccinicacid_eEC11142^1)))^(-0.5); 
+R256_f := eEC11142 * (hKcat_F_R256*((CO2^1)*(aKG^1))/((Km_CO2_eEC11142^1)*(Km_aKG_eEC11142^1)))/R256_D; 
+R256_r := eEC11142 * (hKcat_R_R256*((Oxalosuccinicacid^1))/((Km_Oxalosuccinicacid_eEC11142^1)))/R256_D; 
+R256 = R256_f - R256_r; 
+
+R257 : 1 NADP + 1 Isocitrate + eEC11142 -> eEC11142 + 1 NADPH + 1 H + 1 Oxalosuccinicacid; 
+R257_D := (((1+NADP/Km_NADP_eEC11142)^1)*((1+Isocitrate/Km_Isocitrate_eEC11142)^1) + ((1+NADPH/Km_NADPH_eEC11142)^1)*((1+Oxalosuccinicacid/Km_Oxalosuccinicacid_eEC11142)^1) -1); 
+hKcat_F_R257 := Kcat_V_R257*(Keq_R257*((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1))/((Km_NADPH_eEC11142^1)*(Km_Oxalosuccinicacid_eEC11142^1)))^(0.5); 
+hKcat_R_R257 := Kcat_V_R257*(Keq_R257*((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1))/((Km_NADPH_eEC11142^1)*(Km_Oxalosuccinicacid_eEC11142^1)))^(-0.5); 
+R257_f := eEC11142 * (hKcat_F_R257*((NADP^1)*(Isocitrate^1))/((Km_NADP_eEC11142^1)*(Km_Isocitrate_eEC11142^1)))/R257_D; 
+R257_r := eEC11142 * (hKcat_R_R257*((NADPH^1)*(Oxalosuccinicacid^1))/((Km_NADPH_eEC11142^1)*(Km_Oxalosuccinicacid_eEC11142^1)))/R257_D; 
+R257 = R257_f - R257_r; 
+
+R268 : 1 NADH + 1 Oxa + 1 H + eEC11137 -> eEC11137 + 1 NAD + 1 Mal; 
+R268_D := (((1+NADH/Km_NADH_eEC11137)^1)*((1+Oxa/Km_Oxa_eEC11137)^1) + ((1+NAD/Km_NAD_eEC11137)^1)*((1+Mal/Km_Mal_eEC11137)^1) -1); 
+hKcat_F_R268 := Kcat_V_R268*(Keq_R268*((Km_NADH_eEC11137^1)*(Km_Oxa_eEC11137^1))/((Km_NAD_eEC11137^1)*(Km_Mal_eEC11137^1)))^(0.5); 
+hKcat_R_R268 := Kcat_V_R268*(Keq_R268*((Km_NADH_eEC11137^1)*(Km_Oxa_eEC11137^1))/((Km_NAD_eEC11137^1)*(Km_Mal_eEC11137^1)))^(-0.5); 
+R268_f := eEC11137 * (hKcat_F_R268*((NADH^1)*(Oxa^1))/((Km_NADH_eEC11137^1)*(Km_Oxa_eEC11137^1)))/R268_D; 
+R268_r := eEC11137 * (hKcat_R_R268*((NAD^1)*(Mal^1))/((Km_NAD_eEC11137^1)*(Km_Mal_eEC11137^1)))/R268_D; 
+R268 = R268_f - R268_r; 
+
+R270 : 1 NADH + 1 CO2 + 1 Pyr + 1 H + eEC11138 -> eEC11138 + 1 NAD + 1 Mal; 
+R270_D := (((1+NADH/Km_NADH_eEC11138)^1)*((1+CO2/Km_CO2_eEC11138)^1)*((1+Pyr/Km_Pyr_eEC11138)^1) + ((1+NAD/Km_NAD_eEC11138)^1)*((1+Mal/Km_Mal_eEC11138)^1) -1); 
+hKcat_F_R270 := Kcat_V_R270*(Keq_R270*((Km_NADH_eEC11138^1)*(Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1))/((Km_NAD_eEC11138^1)*(Km_Mal_eEC11138^1)))^(0.5); 
+hKcat_R_R270 := Kcat_V_R270*(Keq_R270*((Km_NADH_eEC11138^1)*(Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1))/((Km_NAD_eEC11138^1)*(Km_Mal_eEC11138^1)))^(-0.5); 
+R270_f := eEC11138 * (hKcat_F_R270*((NADH^1)*(CO2^1)*(Pyr^1))/((Km_NADH_eEC11138^1)*(Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1)))/R270_D; 
+R270_r := eEC11138 * (hKcat_R_R270*((NAD^1)*(Mal^1))/((Km_NAD_eEC11138^1)*(Km_Mal_eEC11138^1)))/R270_D; 
+R270 = R270_f - R270_r; 
+
+R271 : 1 Oxa + eEC11138 -> eEC11138 + 1 CO2 + 1 Pyr; 
+R271_D := (((1+Oxa/Km_Oxa_eEC11138)^1) + ((1+CO2/Km_CO2_eEC11138)^1)*((1+Pyr/Km_Pyr_eEC11138)^1) -1); 
+hKcat_F_R271 := Kcat_V_R271*(Keq_R271*((Km_Oxa_eEC11138^1))/((Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1)))^(0.5); 
+hKcat_R_R271 := Kcat_V_R271*(Keq_R271*((Km_Oxa_eEC11138^1))/((Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1)))^(-0.5); 
+R271_f := eEC11138 * (hKcat_F_R271*((Oxa^1))/((Km_Oxa_eEC11138^1)))/R271_D; 
+R271_r := eEC11138 * (hKcat_R_R271*((CO2^1)*(Pyr^1))/((Km_CO2_eEC11138^1)*(Km_Pyr_eEC11138^1)))/R271_D; 
+R271 = R271_f - R271_r; 
+
+R272 : 1 NADP + 1 Mal + eEC11140 -> eEC11140 + 1 NADPH + 1 CO2 + 1 Pyr + 1 H; 
+R272_D := (((1+NADP/Km_NADP_eEC11140)^1)*((1+Mal/Km_Mal_eEC11140)^1) + ((1+NADPH/Km_NADPH_eEC11140)^1)*((1+CO2/Km_CO2_eEC11140)^1)*((1+Pyr/Km_Pyr_eEC11140)^1) -1); 
+hKcat_F_R272 := Kcat_V_R272*(Keq_R272*((Km_NADP_eEC11140^1)*(Km_Mal_eEC11140^1))/((Km_NADPH_eEC11140^1)*(Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))^(0.5); 
+hKcat_R_R272 := Kcat_V_R272*(Keq_R272*((Km_NADP_eEC11140^1)*(Km_Mal_eEC11140^1))/((Km_NADPH_eEC11140^1)*(Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))^(-0.5); 
+R272_f := eEC11140 * (hKcat_F_R272*((NADP^1)*(Mal^1))/((Km_NADP_eEC11140^1)*(Km_Mal_eEC11140^1)))/R272_D; 
+R272_r := eEC11140 * (hKcat_R_R272*((NADPH^1)*(CO2^1)*(Pyr^1))/((Km_NADPH_eEC11140^1)*(Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))/R272_D; 
+R272 = R272_f - R272_r; 
+
+R273 : 1 Oxa + eEC11140 -> eEC11140 + 1 CO2 + 1 Pyr; 
+R273_D := (((1+Oxa/Km_Oxa_eEC11140)^1) + ((1+CO2/Km_CO2_eEC11140)^1)*((1+Pyr/Km_Pyr_eEC11140)^1) -1); 
+hKcat_F_R273 := Kcat_V_R273*(Keq_R273*((Km_Oxa_eEC11140^1))/((Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))^(0.5); 
+hKcat_R_R273 := Kcat_V_R273*(Keq_R273*((Km_Oxa_eEC11140^1))/((Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))^(-0.5); 
+R273_f := eEC11140 * (hKcat_F_R273*((Oxa^1))/((Km_Oxa_eEC11140^1)))/R273_D; 
+R273_r := eEC11140 * (hKcat_R_R273*((CO2^1)*(Pyr^1))/((Km_CO2_eEC11140^1)*(Km_Pyr_eEC11140^1)))/R273_D; 
+R273 = R273_f - R273_r; 
+
+R299 : 1 NADH + 1 CO2 + 1 H + 1 GlutarylCoA + eEC1242 -> eEC1242 + 1 NAD + 1 CoA + 1 _2Oxoadipate; 
+R299_D := (((1+NADH/Km_NADH_eEC1242)^1)*((1+CO2/Km_CO2_eEC1242)^1)*((1+GlutarylCoA/Km_GlutarylCoA_eEC1242)^1) + ((1+NAD/Km_NAD_eEC1242)^1)*((1+CoA/Km_CoA_eEC1242)^1)*((1+_2Oxoadipate/Km__2Oxoadipate_eEC1242)^1) -1); 
+hKcat_F_R299 := Kcat_V_R299*(Keq_R299*((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_GlutarylCoA_eEC1242^1))/((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km__2Oxoadipate_eEC1242^1)))^(0.5); 
+hKcat_R_R299 := Kcat_V_R299*(Keq_R299*((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_GlutarylCoA_eEC1242^1))/((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km__2Oxoadipate_eEC1242^1)))^(-0.5); 
+R299_f := eEC1242 * (hKcat_F_R299*((NADH^1)*(CO2^1)*(GlutarylCoA^1))/((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_GlutarylCoA_eEC1242^1)))/R299_D; 
+R299_r := eEC1242 * (hKcat_R_R299*((NAD^1)*(CoA^1)*(_2Oxoadipate^1))/((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km__2Oxoadipate_eEC1242^1)))/R299_D; 
+R299 = R299_f - R299_r; 
+
+R300 : 1 NAD + 1 CoA + 1 aKG + eEC1242 -> eEC1242 + 1 NADH + 1 CO2 + 1 H + 1 SucCoA; 
+R300_D := (((1+NAD/Km_NAD_eEC1242)^1)*((1+CoA/Km_CoA_eEC1242)^1)*((1+aKG/Km_aKG_eEC1242)^1) + ((1+NADH/Km_NADH_eEC1242)^1)*((1+CO2/Km_CO2_eEC1242)^1)*((1+SucCoA/Km_SucCoA_eEC1242)^1) -1); 
+hKcat_F_R300 := Kcat_V_R300*(Keq_R300*((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km_aKG_eEC1242^1))/((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_SucCoA_eEC1242^1)))^(0.5); 
+hKcat_R_R300 := Kcat_V_R300*(Keq_R300*((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km_aKG_eEC1242^1))/((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_SucCoA_eEC1242^1)))^(-0.5); 
+R300_f := eEC1242 * (hKcat_F_R300*((NAD^1)*(CoA^1)*(aKG^1))/((Km_NAD_eEC1242^1)*(Km_CoA_eEC1242^1)*(Km_aKG_eEC1242^1)))/R300_D; 
+R300_r := eEC1242 * (hKcat_R_R300*((NADH^1)*(CO2^1)*(SucCoA^1))/((Km_NADH_eEC1242^1)*(Km_CO2_eEC1242^1)*(Km_SucCoA_eEC1242^1)))/R300_D; 
+R300 = R300_f - R300_r; 
+
+R304 : 1 CoA + 1 Acetylphosphate + eEC2318 -> eEC2318 + 1 PO4 + 1 AcCoA; 
+R304_D := (((1+CoA/Km_CoA_eEC2318)^1)*((1+Acetylphosphate/Km_Acetylphosphate_eEC2318)^1) + ((1+PO4/Km_PO4_eEC2318)^1)*((1+AcCoA/Km_AcCoA_eEC2318)^1) -1); 
+hKcat_F_R304 := Kcat_V_R304*(Keq_R304*((Km_CoA_eEC2318^1)*(Km_Acetylphosphate_eEC2318^1))/((Km_PO4_eEC2318^1)*(Km_AcCoA_eEC2318^1)))^(0.5); 
+hKcat_R_R304 := Kcat_V_R304*(Keq_R304*((Km_CoA_eEC2318^1)*(Km_Acetylphosphate_eEC2318^1))/((Km_PO4_eEC2318^1)*(Km_AcCoA_eEC2318^1)))^(-0.5); 
+R304_f := eEC2318 * (hKcat_F_R304*((CoA^1)*(Acetylphosphate^1))/((Km_CoA_eEC2318^1)*(Km_Acetylphosphate_eEC2318^1)))/R304_D; 
+R304_r := eEC2318 * (hKcat_R_R304*((PO4^1)*(AcCoA^1))/((Km_PO4_eEC2318^1)*(Km_AcCoA_eEC2318^1)))/R304_D; 
+R304 = R304_f - R304_r; 
+
+R305 : 1 PO4 + 1 PropaCoA + eEC2318 -> eEC2318 + 1 CoA + 1 Propanoylphosphate; 
+R305_D := (((1+PO4/Km_PO4_eEC2318)^1)*((1+PropaCoA/Km_PropaCoA_eEC2318)^1) + ((1+CoA/Km_CoA_eEC2318)^1)*((1+Propanoylphosphate/Km_Propanoylphosphate_eEC2318)^1) -1); 
+hKcat_F_R305 := Kcat_V_R305*(Keq_R305*((Km_PO4_eEC2318^1)*(Km_PropaCoA_eEC2318^1))/((Km_CoA_eEC2318^1)*(Km_Propanoylphosphate_eEC2318^1)))^(0.5); 
+hKcat_R_R305 := Kcat_V_R305*(Keq_R305*((Km_PO4_eEC2318^1)*(Km_PropaCoA_eEC2318^1))/((Km_CoA_eEC2318^1)*(Km_Propanoylphosphate_eEC2318^1)))^(-0.5); 
+R305_f := eEC2318 * (hKcat_F_R305*((PO4^1)*(PropaCoA^1))/((Km_PO4_eEC2318^1)*(Km_PropaCoA_eEC2318^1)))/R305_D; 
+R305_r := eEC2318 * (hKcat_R_R305*((CoA^1)*(Propanoylphosphate^1))/((Km_CoA_eEC2318^1)*(Km_Propanoylphosphate_eEC2318^1)))/R305_D; 
+R305 = R305_f - R305_r; 
+
+R307 : 1 ADP + 1 CO2 + 1 PEP + eEC41149 -> eEC41149 + 1 ATP + 1 Oxa; 
+R307_D := (((1+ADP/Km_ADP_eEC41149)^1)*((1+CO2/Km_CO2_eEC41149)^1)*((1+PEP/Km_PEP_eEC41149)^1) + ((1+ATP/Km_ATP_eEC41149)^1)*((1+Oxa/Km_Oxa_eEC41149)^1) -1); 
+hKcat_F_R307 := Kcat_V_R307*(Keq_R307*((Km_ADP_eEC41149^1)*(Km_CO2_eEC41149^1)*(Km_PEP_eEC41149^1))/((Km_ATP_eEC41149^1)*(Km_Oxa_eEC41149^1)))^(0.5); 
+hKcat_R_R307 := Kcat_V_R307*(Keq_R307*((Km_ADP_eEC41149^1)*(Km_CO2_eEC41149^1)*(Km_PEP_eEC41149^1))/((Km_ATP_eEC41149^1)*(Km_Oxa_eEC41149^1)))^(-0.5); 
+R307_f := eEC41149 * (hKcat_F_R307*((ADP^1)*(CO2^1)*(PEP^1))/((Km_ADP_eEC41149^1)*(Km_CO2_eEC41149^1)*(Km_PEP_eEC41149^1)))/R307_D; 
+R307_r := eEC41149 * (hKcat_R_R307*((ATP^1)*(Oxa^1))/((Km_ATP_eEC41149^1)*(Km_Oxa_eEC41149^1)))/R307_D; 
+R307 = R307_f - R307_r; 
+
+R308 : 1 H2O + 1 CO2 + 1 PEP + eEC41131 -> eEC41131 + 1 PO4 + 1 Oxa; 
+R308_D := (((1+CO2/Km_CO2_eEC41131)^1)*((1+PEP/Km_PEP_eEC41131)^1) + ((1+PO4/Km_PO4_eEC41131)^1)*((1+Oxa/Km_Oxa_eEC41131)^1) -1); 
+hKcat_F_R308 := Kcat_V_R308*(Keq_R308*((Km_CO2_eEC41131^1)*(Km_PEP_eEC41131^1))/((Km_PO4_eEC41131^1)*(Km_Oxa_eEC41131^1)))^(0.5); 
+hKcat_R_R308 := Kcat_V_R308*(Keq_R308*((Km_CO2_eEC41131^1)*(Km_PEP_eEC41131^1))/((Km_PO4_eEC41131^1)*(Km_Oxa_eEC41131^1)))^(-0.5); 
+R308_f := eEC41131 * (hKcat_F_R308*((CO2^1)*(PEP^1))/((Km_CO2_eEC41131^1)*(Km_PEP_eEC41131^1)))/R308_D; 
+R308_r := eEC41131 * (hKcat_R_R308*((PO4^1)*(Oxa^1))/((Km_PO4_eEC41131^1)*(Km_Oxa_eEC41131^1)))/R308_D; 
+R308 = R308_f - R308_r; 
+
+R346 : 1 NAD + 1 CoA + 1 Pyr + eEC1241 -> eEC1241 + 1 NADH + 1 CO2 + 1 AcCoA + 1 H; 
+R346_D := (((1+NAD/Km_NAD_eEC1241)^1)*((1+CoA/Km_CoA_eEC1241)^1)*((1+Pyr/Km_Pyr_eEC1241)^1) + ((1+NADH/Km_NADH_eEC1241)^1)*((1+CO2/Km_CO2_eEC1241)^1)*((1+AcCoA/Km_AcCoA_eEC1241)^1) -1); 
+hKcat_F_R346 := Kcat_V_R346*(Keq_R346*((Km_NAD_eEC1241^1)*(Km_CoA_eEC1241^1)*(Km_Pyr_eEC1241^1))/((Km_NADH_eEC1241^1)*(Km_CO2_eEC1241^1)*(Km_AcCoA_eEC1241^1)))^(0.5); 
+hKcat_R_R346 := Kcat_V_R346*(Keq_R346*((Km_NAD_eEC1241^1)*(Km_CoA_eEC1241^1)*(Km_Pyr_eEC1241^1))/((Km_NADH_eEC1241^1)*(Km_CO2_eEC1241^1)*(Km_AcCoA_eEC1241^1)))^(-0.5); 
+R346_f := eEC1241 * (hKcat_F_R346*((NAD^1)*(CoA^1)*(Pyr^1))/((Km_NAD_eEC1241^1)*(Km_CoA_eEC1241^1)*(Km_Pyr_eEC1241^1)))/R346_D; 
+R346_r := eEC1241 * (hKcat_R_R346*((NADH^1)*(CO2^1)*(AcCoA^1))/((Km_NADH_eEC1241^1)*(Km_CO2_eEC1241^1)*(Km_AcCoA_eEC1241^1)))/R346_D; 
+R346 = R346_f - R346_r; 
+
+R347 : 1 ADP + 1 PEP + eEC27140 -> eEC27140 + 1 ATP + 1 Pyr; 
+R347_D := (((1+ADP/Km_ADP_eEC27140)^1)*((1+PEP/Km_PEP_eEC27140)^1) + ((1+ATP/Km_ATP_eEC27140)^1)*((1+Pyr/Km_Pyr_eEC27140)^1) -1); 
+hKcat_F_R347 := Kcat_V_R347*(Keq_R347*((Km_ADP_eEC27140^1)*(Km_PEP_eEC27140^1))/((Km_ATP_eEC27140^1)*(Km_Pyr_eEC27140^1)))^(0.5); 
+hKcat_R_R347 := Kcat_V_R347*(Keq_R347*((Km_ADP_eEC27140^1)*(Km_PEP_eEC27140^1))/((Km_ATP_eEC27140^1)*(Km_Pyr_eEC27140^1)))^(-0.5); 
+R347_f := eEC27140 * (hKcat_F_R347*((ADP^1)*(PEP^1))/((Km_ADP_eEC27140^1)*(Km_PEP_eEC27140^1)))/R347_D; 
+R347_r := eEC27140 * (hKcat_R_R347*((ATP^1)*(Pyr^1))/((Km_ATP_eEC27140^1)*(Km_Pyr_eEC27140^1)))/R347_D; 
+R347 = R347_f - R347_r; 
+
+R351 : 1 H2O + 1 ATP + 1 Pyr + eEC2792 -> eEC2792 + 1 PO4 + 1 AMP + 1 PEP; 
+R351_D := (((1+ATP/Km_ATP_eEC2792)^1)*((1+Pyr/Km_Pyr_eEC2792)^1) + ((1+PO4/Km_PO4_eEC2792)^1)*((1+AMP/Km_AMP_eEC2792)^1)*((1+PEP/Km_PEP_eEC2792)^1) -1); 
+hKcat_F_R351 := Kcat_V_R351*(Keq_R351*((Km_ATP_eEC2792^1)*(Km_Pyr_eEC2792^1))/((Km_PO4_eEC2792^1)*(Km_AMP_eEC2792^1)*(Km_PEP_eEC2792^1)))^(0.5); 
+hKcat_R_R351 := Kcat_V_R351*(Keq_R351*((Km_ATP_eEC2792^1)*(Km_Pyr_eEC2792^1))/((Km_PO4_eEC2792^1)*(Km_AMP_eEC2792^1)*(Km_PEP_eEC2792^1)))^(-0.5); 
+R351_f := eEC2792 * (hKcat_F_R351*((ATP^1)*(Pyr^1))/((Km_ATP_eEC2792^1)*(Km_Pyr_eEC2792^1)))/R351_D; 
+R351_r := eEC2792 * (hKcat_R_R351*((PO4^1)*(AMP^1)*(PEP^1))/((Km_PO4_eEC2792^1)*(Km_AMP_eEC2792^1)*(Km_PEP_eEC2792^1)))/R351_D; 
+R351 = R351_f - R351_r; 
+
+R371 : 1 Fum + 1 QH2 + eEC1351 -> eEC1351 + 1 Succinate + 1 Ubiquinone; 
+R371_D := (((1+Fum/Km_Fum_eEC1351)^1)*((1+QH2/Km_QH2_eEC1351)^1) + ((1+Succinate/Km_Succinate_eEC1351)^1)*((1+Ubiquinone/Km_Ubiquinone_eEC1351)^1) -1); 
+hKcat_F_R371 := Kcat_V_R371*(Keq_R371*((Km_Fum_eEC1351^1)*(Km_QH2_eEC1351^1))/((Km_Succinate_eEC1351^1)*(Km_Ubiquinone_eEC1351^1)))^(0.5); 
+hKcat_R_R371 := Kcat_V_R371*(Keq_R371*((Km_Fum_eEC1351^1)*(Km_QH2_eEC1351^1))/((Km_Succinate_eEC1351^1)*(Km_Ubiquinone_eEC1351^1)))^(-0.5); 
+R371_f := eEC1351 * (hKcat_F_R371*((Fum^1)*(QH2^1))/((Km_Fum_eEC1351^1)*(Km_QH2_eEC1351^1)))/R371_D; 
+R371_r := eEC1351 * (hKcat_R_R371*((Succinate^1)*(Ubiquinone^1))/((Km_Succinate_eEC1351^1)*(Km_Ubiquinone_eEC1351^1)))/R371_D; 
+R371 = R371_f - R371_r; 
+
+R372 : 1 ATP + 1 CoA + 1 Succinate + eEC6215 -> eEC6215 + 1 ADP + 1 PO4 + 1 SucCoA; 
+R372_D := (((1+ATP/Km_ATP_eEC6215)^1)*((1+CoA/Km_CoA_eEC6215)^1)*((1+Succinate/Km_Succinate_eEC6215)^1) + ((1+ADP/Km_ADP_eEC6215)^1)*((1+PO4/Km_PO4_eEC6215)^1)*((1+SucCoA/Km_SucCoA_eEC6215)^1) -1); 
+hKcat_F_R372 := Kcat_V_R372*(Keq_R372*((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Succinate_eEC6215^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_SucCoA_eEC6215^1)))^(0.5); 
+hKcat_R_R372 := Kcat_V_R372*(Keq_R372*((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Succinate_eEC6215^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_SucCoA_eEC6215^1)))^(-0.5); 
+R372_f := eEC6215 * (hKcat_F_R372*((ATP^1)*(CoA^1)*(Succinate^1))/((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Succinate_eEC6215^1)))/R372_D; 
+R372_r := eEC6215 * (hKcat_R_R372*((ADP^1)*(PO4^1)*(SucCoA^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_SucCoA_eEC6215^1)))/R372_D; 
+R372 = R372_f - R372_r; 
+
+R373 : 1 ATP + 1 CoA + 1 Itaconate + eEC6215 -> eEC6215 + 1 ADP + 1 PO4 + 1 ItaconylCoA; 
+R373_D := (((1+ATP/Km_ATP_eEC6215)^1)*((1+CoA/Km_CoA_eEC6215)^1)*((1+Itaconate/Km_Itaconate_eEC6215)^1) + ((1+ADP/Km_ADP_eEC6215)^1)*((1+PO4/Km_PO4_eEC6215)^1)*((1+ItaconylCoA/Km_ItaconylCoA_eEC6215)^1) -1); 
+hKcat_F_R373 := Kcat_V_R373*(Keq_R373*((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Itaconate_eEC6215^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_ItaconylCoA_eEC6215^1)))^(0.5); 
+hKcat_R_R373 := Kcat_V_R373*(Keq_R373*((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Itaconate_eEC6215^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_ItaconylCoA_eEC6215^1)))^(-0.5); 
+R373_f := eEC6215 * (hKcat_F_R373*((ATP^1)*(CoA^1)*(Itaconate^1))/((Km_ATP_eEC6215^1)*(Km_CoA_eEC6215^1)*(Km_Itaconate_eEC6215^1)))/R373_D; 
+R373_r := eEC6215 * (hKcat_R_R373*((ADP^1)*(PO4^1)*(ItaconylCoA^1))/((Km_ADP_eEC6215^1)*(Km_PO4_eEC6215^1)*(Km_ItaconylCoA_eEC6215^1)))/R373_D; 
+R373 = R373_f - R373_r; 
+
+R406 : 1 Serine + hEC43117 -> hEC43117 + 1 NH3 + 1 Pyr; 
+R406_D := (((1+Serine/Km_Serine_hEC43117)^1) + ((1+NH3/Km_NH3_hEC43117)^1)*((1+Pyr/Km_Pyr_hEC43117)^1) -1); 
+hKcat_F_R406 := Kcat_V_R406*(Keq_R406*((Km_Serine_hEC43117^1))/((Km_NH3_hEC43117^1)*(Km_Pyr_hEC43117^1)))^(0.5); 
+hKcat_R_R406 := Kcat_V_R406*(Keq_R406*((Km_Serine_hEC43117^1))/((Km_NH3_hEC43117^1)*(Km_Pyr_hEC43117^1)))^(-0.5); 
+R406_f := hEC43117 * (hKcat_F_R406*((Serine^1))/((Km_Serine_hEC43117^1)))/R406_D; 
+R406_r := hEC43117 * (hKcat_R_R406*((NH3^1)*(Pyr^1))/((Km_NH3_hEC43117^1)*(Km_Pyr_hEC43117^1)))/R406_D; 
+R406 = R406_f - R406_r; 
+
+R197 : 1 NAD + 1 Formate + hEC11719 -> hEC11719 + 1 NADH + 1 CO2 + 1 H; 
+R197_D := (((1+NAD/Km_NAD_hEC11719)^1)*((1+Formate/Km_Formate_hEC11719)^1) + ((1+NADH/Km_NADH_hEC11719)^1)*((1+CO2/Km_CO2_hEC11719)^1) -1); 
+hKcat_F_R197 := Kcat_V_R197*(Keq_R197*((Km_NAD_hEC11719^1)*(Km_Formate_hEC11719^1))/((Km_NADH_hEC11719^1)*(Km_CO2_hEC11719^1)))^(0.5); 
+hKcat_R_R197 := Kcat_V_R197*(Keq_R197*((Km_NAD_hEC11719^1)*(Km_Formate_hEC11719^1))/((Km_NADH_hEC11719^1)*(Km_CO2_hEC11719^1)))^(-0.5); 
+R197_f := hEC11719 * (hKcat_F_R197*((NAD^1)*(Formate^1))/((Km_NAD_hEC11719^1)*(Km_Formate_hEC11719^1)))/R197_D; 
+R197_r := hEC11719 * (hKcat_R_R197*((NADH^1)*(CO2^1))/((Km_NADH_hEC11719^1)*(Km_CO2_hEC11719^1)))/R197_D; 
+R197 = R197_f - R197_r; 
+
+R269 : 1 NADH + 1 Oxa + 1 H + hEC11137 -> hEC11137 + 1 NAD + 1 Mal; 
+R269_D := (((1+NADH/Km_NADH_hEC11137)^1)*((1+Oxa/Km_Oxa_hEC11137)^1) + ((1+NAD/Km_NAD_hEC11137)^1)*((1+Mal/Km_Mal_hEC11137)^1) -1); 
+hKcat_F_R269 := Kcat_V_R269*(Keq_R269*((Km_NADH_hEC11137^1)*(Km_Oxa_hEC11137^1))/((Km_NAD_hEC11137^1)*(Km_Mal_hEC11137^1)))^(0.5); 
+hKcat_R_R269 := Kcat_V_R269*(Keq_R269*((Km_NADH_hEC11137^1)*(Km_Oxa_hEC11137^1))/((Km_NAD_hEC11137^1)*(Km_Mal_hEC11137^1)))^(-0.5); 
+R269_f := hEC11137 * (hKcat_F_R269*((NADH^1)*(Oxa^1))/((Km_NADH_hEC11137^1)*(Km_Oxa_hEC11137^1)))/R269_D; 
+R269_r := hEC11137 * (hKcat_R_R269*((NAD^1)*(Mal^1))/((Km_NAD_hEC11137^1)*(Km_Mal_hEC11137^1)))/R269_D; 
+R269 = R269_f - R269_r; 
+
+R345 : 1 ATP + 1 Pyr + 1 CO2 + hEC6411 -> hEC6411 + 1 ADP + 1 PO4 + 1 Oxa; 
+R345_D := (((1+ATP/Km_ATP_hEC6411)^1)*((1+Pyr/Km_Pyr_hEC6411)^1)*((1+CO2/Km_CO2_hEC6411)^1) + ((1+ADP/Km_ADP_hEC6411)^1)*((1+PO4/Km_PO4_hEC6411)^1)*((1+Oxa/Km_Oxa_hEC6411)^1) -1); 
+hKcat_F_R345 := Kcat_V_R345*(Keq_R345*((Km_ATP_hEC6411^1)*(Km_Pyr_hEC6411^1)*(Km_CO2_hEC6411^1))/((Km_ADP_hEC6411^1)*(Km_PO4_hEC6411^1)*(Km_Oxa_hEC6411^1)))^(0.5); 
+hKcat_R_R345 := Kcat_V_R345*(Keq_R345*((Km_ATP_hEC6411^1)*(Km_Pyr_hEC6411^1)*(Km_CO2_hEC6411^1))/((Km_ADP_hEC6411^1)*(Km_PO4_hEC6411^1)*(Km_Oxa_hEC6411^1)))^(-0.5); 
+R345_f := hEC6411 * (hKcat_F_R345*((ATP^1)*(Pyr^1)*(CO2^1))/((Km_ATP_hEC6411^1)*(Km_Pyr_hEC6411^1)*(Km_CO2_hEC6411^1)))/R345_D; 
+R345_r := hEC6411 * (hKcat_R_R345*((ADP^1)*(PO4^1)*(Oxa^1))/((Km_ADP_hEC6411^1)*(Km_PO4_hEC6411^1)*(Km_Oxa_hEC6411^1)))/R345_D; 
+R345 = R345_f - R345_r; 
+
+R62 : 2 Pyr + eEC2216 -> eEC2216 + 1 CO2 + 1 S2Acetolactate; 
+R62_D := (((1+Pyr/Km_Pyr_eEC2216)^2) + ((1+CO2/Km_CO2_eEC2216)^1)*((1+S2Acetolactate/Km_S2Acetolactate_eEC2216)^1) -1); 
+hKcat_F_R62 := Kcat_V_R62*(Keq_R62*((Km_Pyr_eEC2216^2))/((Km_CO2_eEC2216^1)*(Km_S2Acetolactate_eEC2216^1)))^(0.5); 
+hKcat_R_R62 := Kcat_V_R62*(Keq_R62*((Km_Pyr_eEC2216^2))/((Km_CO2_eEC2216^1)*(Km_S2Acetolactate_eEC2216^1)))^(-0.5); 
+R62_f := eEC2216 * (hKcat_F_R62*((Pyr^2))/((Km_Pyr_eEC2216^2)))/R62_D; 
+R62_r := eEC2216 * (hKcat_R_R62*((CO2^1)*(S2Acetolactate^1))/((Km_CO2_eEC2216^1)*(Km_S2Acetolactate_eEC2216^1)))/R62_D; 
+R62 = R62_f - R62_r; 
+
+R63 : 1 Pyr + 1 _2Oxobutanoate + eEC2216 -> eEC2216 + 1 CO2 + 1 S2Aceto2hydroxybutanoate; 
+R63_D := (((1+Pyr/Km_Pyr_eEC2216)^1)*((1+_2Oxobutanoate/Km__2Oxobutanoate_eEC2216)^1) + ((1+CO2/Km_CO2_eEC2216)^1)*((1+S2Aceto2hydroxybutanoate/Km_S2Aceto2hydroxybutanoate_eEC2216)^1) -1); 
+hKcat_F_R63 := Kcat_V_R63*(Keq_R63*((Km_Pyr_eEC2216^1)*(Km__2Oxobutanoate_eEC2216^1))/((Km_CO2_eEC2216^1)*(Km_S2Aceto2hydroxybutanoate_eEC2216^1)))^(0.5); 
+hKcat_R_R63 := Kcat_V_R63*(Keq_R63*((Km_Pyr_eEC2216^1)*(Km__2Oxobutanoate_eEC2216^1))/((Km_CO2_eEC2216^1)*(Km_S2Aceto2hydroxybutanoate_eEC2216^1)))^(-0.5); 
+R63_f := eEC2216 * (hKcat_F_R63*((Pyr^1)*(_2Oxobutanoate^1))/((Km_Pyr_eEC2216^1)*(Km__2Oxobutanoate_eEC2216^1)))/R63_D; 
+R63_r := eEC2216 * (hKcat_R_R63*((CO2^1)*(S2Aceto2hydroxybutanoate^1))/((Km_CO2_eEC2216^1)*(Km_S2Aceto2hydroxybutanoate_eEC2216^1)))/R63_D; 
+R63 = R63_f - R63_r; 
+
+R227 : 1 Serine + 1 THF + eEC2121 -> eEC2121 + 1 H2O + 1 Glycine + 1 _510CH2THF; 
+R227_D := (((1+Serine/Km_Serine_eEC2121)^1)*((1+THF/Km_THF_eEC2121)^1) + ((1+Glycine/Km_Glycine_eEC2121)^1)*((1+_510CH2THF/Km__510CH2THF_eEC2121)^1) -1); 
+hKcat_F_R227 := Kcat_V_R227*(Keq_R227*((Km_Serine_eEC2121^1)*(Km_THF_eEC2121^1))/((Km_Glycine_eEC2121^1)*(Km__510CH2THF_eEC2121^1)))^(0.5); 
+hKcat_R_R227 := Kcat_V_R227*(Keq_R227*((Km_Serine_eEC2121^1)*(Km_THF_eEC2121^1))/((Km_Glycine_eEC2121^1)*(Km__510CH2THF_eEC2121^1)))^(-0.5); 
+R227_f := eEC2121 * (hKcat_F_R227*((Serine^1)*(THF^1))/((Km_Serine_eEC2121^1)*(Km_THF_eEC2121^1)))/R227_D; 
+R227_r := eEC2121 * (hKcat_R_R227*((Glycine^1)*(_510CH2THF^1))/((Km_Glycine_eEC2121^1)*(Km__510CH2THF_eEC2121^1)))/R227_D; 
+R227 = R227_f - R227_r; 
+
+R228 : 1 H2O + 1 Glycine + 1 _510MTHMPT + eEC2121 -> eEC2121 + 1 Serine + 1 THMPT; 
+R228_D := (((1+Glycine/Km_Glycine_eEC2121)^1)*((1+_510MTHMPT/Km__510MTHMPT_eEC2121)^1) + ((1+Serine/Km_Serine_eEC2121)^1)*((1+THMPT/Km_THMPT_eEC2121)^1) -1); 
+hKcat_F_R228 := Kcat_V_R228*(Keq_R228*((Km_Glycine_eEC2121^1)*(Km__510MTHMPT_eEC2121^1))/((Km_Serine_eEC2121^1)*(Km_THMPT_eEC2121^1)))^(0.5); 
+hKcat_R_R228 := Kcat_V_R228*(Keq_R228*((Km_Glycine_eEC2121^1)*(Km__510MTHMPT_eEC2121^1))/((Km_Serine_eEC2121^1)*(Km_THMPT_eEC2121^1)))^(-0.5); 
+R228_f := eEC2121 * (hKcat_F_R228*((Glycine^1)*(_510MTHMPT^1))/((Km_Glycine_eEC2121^1)*(Km__510MTHMPT_eEC2121^1)))/R228_D; 
+R228_r := eEC2121 * (hKcat_R_R228*((Serine^1)*(THMPT^1))/((Km_Serine_eEC2121^1)*(Km_THMPT_eEC2121^1)))/R228_D; 
+R228 = R228_f - R228_r; 
+
+R219 : 1 ATP + 1 Glycine + 1 _5GlutCys + eEC6323 -> eEC6323 + 1 ADP + 1 PO4 + 1 GSH; 
+R219_D := (((1+ATP/Km_ATP_eEC6323)^1)*((1+Glycine/Km_Glycine_eEC6323)^1)*((1+_5GlutCys/Km__5GlutCys_eEC6323)^1) + ((1+ADP/Km_ADP_eEC6323)^1)*((1+PO4/Km_PO4_eEC6323)^1)*((1+GSH/Km_GSH_eEC6323)^1) -1); 
+hKcat_F_R219 := Kcat_V_R219*(Keq_R219*((Km_ATP_eEC6323^1)*(Km_Glycine_eEC6323^1)*(Km__5GlutCys_eEC6323^1))/((Km_ADP_eEC6323^1)*(Km_PO4_eEC6323^1)*(Km_GSH_eEC6323^1)))^(0.5); 
+hKcat_R_R219 := Kcat_V_R219*(Keq_R219*((Km_ATP_eEC6323^1)*(Km_Glycine_eEC6323^1)*(Km__5GlutCys_eEC6323^1))/((Km_ADP_eEC6323^1)*(Km_PO4_eEC6323^1)*(Km_GSH_eEC6323^1)))^(-0.5); 
+R219_f := eEC6323 * (hKcat_F_R219*((ATP^1)*(Glycine^1)*(_5GlutCys^1))/((Km_ATP_eEC6323^1)*(Km_Glycine_eEC6323^1)*(Km__5GlutCys_eEC6323^1)))/R219_D; 
+R219_r := eEC6323 * (hKcat_R_R219*((ADP^1)*(PO4^1)*(GSH^1))/((Km_ADP_eEC6323^1)*(Km_PO4_eEC6323^1)*(Km_GSH_eEC6323^1)))/R219_D; 
+R219 = R219_f - R219_r; 
+
+R224 : 1 CoA + 1 _2A3OxoBAc + eEC23129 -> eEC23129 + 1 AcCoA + 1 Glycine; 
+R224_D := (((1+CoA/Km_CoA_eEC23129)^1)*((1+_2A3OxoBAc/Km__2A3OxoBAc_eEC23129)^1) + ((1+AcCoA/Km_AcCoA_eEC23129)^1)*((1+Glycine/Km_Glycine_eEC23129)^1) -1); 
+hKcat_F_R224 := Kcat_V_R224*(Keq_R224*((Km_CoA_eEC23129^1)*(Km__2A3OxoBAc_eEC23129^1))/((Km_AcCoA_eEC23129^1)*(Km_Glycine_eEC23129^1)))^(0.5); 
+hKcat_R_R224 := Kcat_V_R224*(Keq_R224*((Km_CoA_eEC23129^1)*(Km__2A3OxoBAc_eEC23129^1))/((Km_AcCoA_eEC23129^1)*(Km_Glycine_eEC23129^1)))^(-0.5); 
+R224_f := eEC23129 * (hKcat_F_R224*((CoA^1)*(_2A3OxoBAc^1))/((Km_CoA_eEC23129^1)*(Km__2A3OxoBAc_eEC23129^1)))/R224_D; 
+R224_r := eEC23129 * (hKcat_R_R224*((AcCoA^1)*(Glycine^1))/((Km_AcCoA_eEC23129^1)*(Km_Glycine_eEC23129^1)))/R224_D; 
+R224 = R224_f - R224_r; 
+
+R225 : 1 CO2 + 1 GcvHSaminomethylN6dihydrolipoylLlysine + eEC1442 -> eEC1442 + 1 Glycine + 1 LipoylP; 
+R225_D := (((1+CO2/Km_CO2_eEC1442)^1)*((1+GcvHSaminomethylN6dihydrolipoylLlysine/Km_GcvHSaminomethylN6dihydrolipoylLlysine_eEC1442)^1) + ((1+Glycine/Km_Glycine_eEC1442)^1)*((1+LipoylP/Km_LipoylP_eEC1442)^1) -1); 
+hKcat_F_R225 := Kcat_V_R225*(Keq_R225*((Km_CO2_eEC1442^1)*(Km_GcvHSaminomethylN6dihydrolipoylLlysine_eEC1442^1))/((Km_Glycine_eEC1442^1)*(Km_LipoylP_eEC1442^1)))^(0.5); 
+hKcat_R_R225 := Kcat_V_R225*(Keq_R225*((Km_CO2_eEC1442^1)*(Km_GcvHSaminomethylN6dihydrolipoylLlysine_eEC1442^1))/((Km_Glycine_eEC1442^1)*(Km_LipoylP_eEC1442^1)))^(-0.5); 
+R225_f := eEC1442 * (hKcat_F_R225*((CO2^1)*(GcvHSaminomethylN6dihydrolipoylLlysine^1))/((Km_CO2_eEC1442^1)*(Km_GcvHSaminomethylN6dihydrolipoylLlysine_eEC1442^1)))/R225_D; 
+R225_r := eEC1442 * (hKcat_R_R225*((Glycine^1)*(LipoylP^1))/((Km_Glycine_eEC1442^1)*(Km_LipoylP_eEC1442^1)))/R225_D; 
+R225 = R225_f - R225_r; 
+
+R258 : 1 Succinate + 1 Glyox + eEC4131 -> eEC4131 + 1 Isocitrate; 
+R258_D := (((1+Succinate/Km_Succinate_eEC4131)^1)*((1+Glyox/Km_Glyox_eEC4131)^1) + ((1+Isocitrate/Km_Isocitrate_eEC4131)^1) -1); 
+hKcat_F_R258 := Kcat_V_R258*(Keq_R258*((Km_Succinate_eEC4131^1)*(Km_Glyox_eEC4131^1))/((Km_Isocitrate_eEC4131^1)))^(0.5); 
+hKcat_R_R258 := Kcat_V_R258*(Keq_R258*((Km_Succinate_eEC4131^1)*(Km_Glyox_eEC4131^1))/((Km_Isocitrate_eEC4131^1)))^(-0.5); 
+R258_f := eEC4131 * (hKcat_F_R258*((Succinate^1)*(Glyox^1))/((Km_Succinate_eEC4131^1)*(Km_Glyox_eEC4131^1)))/R258_D; 
+R258_r := eEC4131 * (hKcat_R_R258*((Isocitrate^1))/((Km_Isocitrate_eEC4131^1)))/R258_D; 
+R258 = R258_f - R258_r; 
+
+D_eEC2721 : eEC2721 -> ; 
+D_eEC2721 = kdeg_eEC2721*eEC2721; 
+
+D_eEC6211 : eEC6211 -> ; 
+D_eEC6211 = kdeg_eEC6211*eEC6211; 
+
+D_eEC6412 : eEC6412 -> ; 
+D_eEC6412 = kdeg_eEC6412*eEC6412; 
+
+D_eEC4213 : eEC4213 -> ; 
+D_eEC4213 = kdeg_eEC4213*eEC4213; 
+
+D_eEC1111 : eEC1111 -> ; 
+D_eEC1111 = kdeg_eEC1111*eEC1111; 
+
+D_eEC1112 : eEC1112 -> ; 
+D_eEC1112 = kdeg_eEC1112*eEC1112; 
+
+D_eEC2338 : eEC2338 -> ; 
+D_eEC2338 = kdeg_eEC2338*eEC2338; 
+
+D_eEC23316 : eEC23316 -> ; 
+D_eEC23316 = kdeg_eEC23316*eEC23316; 
+
+D_eEC1814 : eEC1814 -> ; 
+D_eEC1814 = kdeg_eEC1814*eEC1814; 
+
+D_eEC23112 : eEC23112 -> ; 
+D_eEC23112 = kdeg_eEC23112*eEC23112; 
+
+D_eEC23161 : eEC23161 -> ; 
+D_eEC23161 = kdeg_eEC23161*eEC23161; 
+
+D_eEC11128 : eEC11128 -> ; 
+D_eEC11128 = kdeg_eEC11128*eEC11128; 
+
+D_eEC4212 : eEC4212 -> ; 
+D_eEC4212 = kdeg_eEC4212*eEC4212; 
+
+D_eEC3126 : eEC3126 -> ; 
+D_eEC3126 = kdeg_eEC3126*eEC3126; 
+
+D_eEC11142 : eEC11142 -> ; 
+D_eEC11142 = kdeg_eEC11142*eEC11142; 
+
+D_eEC11137 : eEC11137 -> ; 
+D_eEC11137 = kdeg_eEC11137*eEC11137; 
+
+D_eEC11138 : eEC11138 -> ; 
+D_eEC11138 = kdeg_eEC11138*eEC11138; 
+
+D_eEC11140 : eEC11140 -> ; 
+D_eEC11140 = kdeg_eEC11140*eEC11140; 
+
+D_eEC1242 : eEC1242 -> ; 
+D_eEC1242 = kdeg_eEC1242*eEC1242; 
+
+D_eEC2318 : eEC2318 -> ; 
+D_eEC2318 = kdeg_eEC2318*eEC2318; 
+
+D_eEC41149 : eEC41149 -> ; 
+D_eEC41149 = kdeg_eEC41149*eEC41149; 
+
+D_eEC41131 : eEC41131 -> ; 
+D_eEC41131 = kdeg_eEC41131*eEC41131; 
+
+D_eEC1241 : eEC1241 -> ; 
+D_eEC1241 = kdeg_eEC1241*eEC1241; 
+
+D_eEC27140 : eEC27140 -> ; 
+D_eEC27140 = kdeg_eEC27140*eEC27140; 
+
+D_eEC2792 : eEC2792 -> ; 
+D_eEC2792 = kdeg_eEC2792*eEC2792; 
+
+D_eEC1351 : eEC1351 -> ; 
+D_eEC1351 = kdeg_eEC1351*eEC1351; 
+
+D_eEC6215 : eEC6215 -> ; 
+D_eEC6215 = kdeg_eEC6215*eEC6215; 
+
+D_hEC43117 : hEC43117 -> ; 
+D_hEC43117 = kdeg_hEC43117*hEC43117; 
+
+D_hEC11719 : hEC11719 -> ; 
+D_hEC11719 = kdeg_hEC11719*hEC11719; 
+
+D_hEC11137 : hEC11137 -> ; 
+D_hEC11137 = kdeg_hEC11137*hEC11137; 
+
+D_hEC6411 : hEC6411 -> ; 
+D_hEC6411 = kdeg_hEC6411*hEC6411; 
+
+D_eEC2216 : eEC2216 -> ; 
+D_eEC2216 = kdeg_eEC2216*eEC2216; 
+
+D_eEC2121 : eEC2121 -> ; 
+D_eEC2121 = kdeg_eEC2121*eEC2121; 
+
+D_eEC6323 : eEC6323 -> ; 
+D_eEC6323 = kdeg_eEC6323*eEC6323; 
+
+D_eEC23129 : eEC23129 -> ; 
+D_eEC23129 = kdeg_eEC23129*eEC23129; 
+
+D_eEC1442 : eEC1442 -> ; 
+D_eEC1442 = kdeg_eEC1442*eEC1442; 
+
+D_eEC4131 : eEC4131 -> ; 
+D_eEC4131 = kdeg_eEC4131*eEC4131; 
+Oxa is "OXALOACETATE";
+Oxa identity "http://identifiers.org/kegg/C00036";
+Pyr is "PYRUVATE";
+Pyr identity "http://identifiers.org/kegg/C00022";
+PEP is "PHOSPHO-ENOL-PYRUVATE";
+PEP identity "http://identifiers.org/kegg/C00074";
+aKG is "2-KETOGLUTARATE";
+aKG identity "http://identifiers.org/kegg/C00026";
+GlutarylCoA is "GLUTARYL-COA";
+GlutarylCoA identity "http://identifiers.org/kegg/C00527";
+Glyox is "GLYOX";
+Glyox identity "http://identifiers.org/kegg/C00048";
+MaloCoA is "MALONYL-COA";
+MaloCoA identity "http://identifiers.org/kegg/C00083";
+THMPT is "TETRAHYDROMETHANOPTERIN";
+THMPT identity "http://identifiers.org/kegg/C01217";
+SDLactoylglutathione is "S-LACTOYL-GLUTATHIONE";
+SDLactoylglutathione identity "http://identifiers.org/kegg/C03451";
+Glycine is "GLY";
+Glycine identity "http://identifiers.org/kegg/D00011";
+Succinate is "SUC";
+Succinate identity "http://identifiers.org/kegg/C00042";
+Isocitrate is "ISOCITRATE";
+Isocitrate identity "http://identifiers.org/kegg/C00311";
+Formate is "FORMATE";
+Formate identity "http://identifiers.org/kegg/C00058";
+_2Oxoadipate is "2K-ADIPATE";
+_2Oxoadipate identity "http://identifiers.org/kegg/C00322";
+PPi is "PPI";
+PPi identity "http://identifiers.org/kegg/C00013";
+Mal is "MAL";
+Mal identity "http://identifiers.org/kegg/C00149";
+NADPH is "NADPH";
+NADPH identity "http://identifiers.org/kegg/C00005";
+Citrate is "CIT";
+Citrate identity "http://identifiers.org/kegg/D00037";
+Acetate is "ACET";
+Acetate identity "http://identifiers.org/kegg/D00010";
+SucCoA is "SUC-COA";
+SucCoA identity "http://identifiers.org/kegg/C00091";
+Oxalosuccinicacid is "OXALO-SUCCINATE";
+Oxalosuccinicacid identity "http://identifiers.org/kegg/C05379";
+Acetaldehyde is "ACETALD";
+Acetaldehyde identity "http://identifiers.org/kegg/C00084";
+Ubiquinone is "Ubiquinones";
+Ubiquinone identity "http://identifiers.org/kegg/C00399";
+_3AMP is "CPD-3706";
+_3AMP identity "http://identifiers.org/kegg/C01367";
+PropaCoA is "PROPIONYL-COA";
+PropaCoA identity "http://identifiers.org/kegg/C00100";
+S2Acetolactate is "2-ACETOLACTATE";
+S2Acetolactate identity "http://identifiers.org/kegg/C00900";
+cAcon is "CIS-ACONITATE";
+cAcon identity "http://identifiers.org/kegg/C00417";
+_510MTHMPT is "5,10-METHYLENETETRAHYDROMETHANOPTERIN";
+_510MTHMPT identity "http://identifiers.org/kegg/C04377";
+AMP is "AMP";
+AMP identity "http://identifiers.org/kegg/D02769";
+ADP is "ADP";
+ADP identity "http://identifiers.org/kegg/G11113";
+H is "PROTON";
+H identity "http://identifiers.org/kegg/C00080";
+THF is "THF";
+THF identity "http://identifiers.org/kegg/C00101";
+Ethanol is "ETOH";
+Ethanol identity "http://identifiers.org/kegg/D06542";
+CO2 is "CARBON-DIOXIDE";
+CO2 identity "http://identifiers.org/kegg/D00004";
+NAD is "NAD";
+NAD identity "http://identifiers.org/kegg/D00002";
+NADP is "NADP";
+NADP identity "http://identifiers.org/kegg/C00006";
+Serine is "SER";
+Serine identity "http://identifiers.org/kegg/C00716";
+GSH is "GLUTATHIONE";
+GSH identity "http://identifiers.org/kegg/D00014";
+Itaconate is "ITACONATE";
+Itaconate identity "http://identifiers.org/kegg/C00490";
+S2Aceto2hydroxybutanoate is "2-ACETO-2-HYDROXYBUTANOATE";
+S2Aceto2hydroxybutanoate identity "http://identifiers.org/kegg/C00659";
+NH3 is "AMMONIA";
+NH3 identity "http://identifiers.org/kegg/C01342";
+Dihydrolipoylprotein is "DIHYDROLIPOYLPROTEIN";
+Dihydrolipoylprotein identity "http://identifiers.org/kegg/C02972";
+NADH is "NADH";
+NADH identity "http://identifiers.org/kegg/C00004";
+LipoylP is "LIPOYLPROTEIN";
+LipoylP identity "http://identifiers.org/kegg/C02051";
+_5GlutCys is "5-L-GLUTAMYL-L-CYSTEINE";
+_5GlutCys identity "http://identifiers.org/kegg/C00669";
+QH2 is "Ubiquinols";
+QH2 identity "http://identifiers.org/kegg/C00390";
+ItaconylCoA is "CPD-1137";
+ItaconylCoA identity "http://identifiers.org/kegg/C00531";
+Acetylphosphate is "ACETYL-P";
+Acetylphosphate identity "http://identifiers.org/kegg/C00227";
+_2Oxobutanoate is "2-OXOBUTANOATE";
+_2Oxobutanoate identity "http://identifiers.org/kegg/C00109";
+_510CH2THF is "5,10-METHYLENETETRAHYDROFOLATE";
+_510CH2THF identity "http://identifiers.org/kegg/C00143";
+CoA is "CO-A";
+CoA identity "http://identifiers.org/kegg/C00010";
+DLactate is "D-LACTATE";
+DLactate identity "http://identifiers.org/kegg/C00256";
+_2A3OxoBAc is "A-3-OXO-ACID";
+_2A3OxoBAc identity "http://identifiers.org/kegg/C01656";
+Propanoate is "PROPIONATE";
+Propanoate identity "http://identifiers.org/kegg/D02310";
+PO4 is "ORTHOPHOSPHATE";
+PO4 identity "http://identifiers.org/kegg/C00009";
+Fum is "FUM";
+Fum identity "http://identifiers.org/kegg/D02308";
+ATP is "ATP";
+ATP identity "http://identifiers.org/kegg/D08646";
+Acetyladenylate is "ACETYL_AMP";
+Acetyladenylate identity "http://identifiers.org/kegg/C05993";
+Propanoylphosphate is "PROPIONYL-P";
+Propanoylphosphate identity "http://identifiers.org/kegg/C02876";
+CitrateHCT is "HYDROXYCITRATE";
+CitrateHCT identity "http://identifiers.org/kegg/C22932";
+AcCoA is "ACETYL-COA";
+AcCoA identity "http://identifiers.org/kegg/C00024";
+H2O is "H2O";
+H2O identity "http://identifiers.org/kegg/C00001";
+GcvHSaminomethylN6dihydrolipoylLlysine is "[GCVH]-S-AMINOMETHYL-N6-DIHYDROLIPOYL-L-LYSINE";
+GcvHSaminomethylN6dihydrolipoylLlysine identity "http://identifiers.org/kegg/C01242";
